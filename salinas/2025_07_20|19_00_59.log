@@ -1,0 +1,949 @@
+2025-07-20 19:00:59,327 [INFO] ========== Training Configuration ==========
+2025-07-20 19:00:59,327 [INFO] out_dir: ./log
+2025-07-20 19:00:59,327 [INFO] lr: 0.1
+2025-07-20 19:00:59,327 [INFO] train_iter: 300
+2025-07-20 19:00:59,327 [INFO] niter: 5
+2025-07-20 19:00:59,327 [INFO] nspix: 300
+2025-07-20 19:00:59,327 [INFO] weight: weight
+2025-07-20 19:00:59,327 [INFO] weight_representation: 45.0
+2025-07-20 19:00:59,327 [INFO] weight_noise: 50.0
+2025-07-20 19:00:59,327 [INFO] dataset: salinas
+2025-07-20 19:00:59,327 [INFO] device: cuda:0
+2025-07-20 19:00:59,327 [INFO] log: salinas10
+2025-07-20 19:00:59,327 [INFO] ============================================
+2025-07-20 19:01:04,160 [INFO] H: 217, W: 512
+2025-07-20 19:01:04,369 [INFO] [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15]
+2025-07-20 19:01:04,675 [INFO] y_target: [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16]
+2025-07-20 19:01:04,676 [INFO] y_predict: [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15]
+2025-07-20 19:01:04,843 [INFO] Epoch = 0 OA = 0.7890 Kappa = 0.7639 NMI = 0.8220
+2025-07-20 19:01:06,286 [INFO] [0/300] loss 365.085 | compact 7.98027 | spectral 5.82192 | recons_loss: 0.392664 | sparse_loss: 1.06383 | 
+2025-07-20 19:01:06,287 [INFO] [Iter 0] LR: 0.10000000
+2025-07-20 19:01:06,288 [INFO] Saving best model at iteration 0
+2025-07-20 19:01:08,011 [INFO] [1/300] loss 364.9 | compact 7.97879 | spectral 5.81762 | recons_loss: 0.390964 | sparse_loss: 1.06369 | 
+2025-07-20 19:01:08,011 [INFO] [Iter 1] LR: 0.10000000
+2025-07-20 19:01:08,012 [INFO] Saving best model at iteration 1
+2025-07-20 19:01:09,748 [INFO] [2/300] loss 364.609 | compact 7.97678 | spectral 5.81082 | recons_loss: 0.388003 | sparse_loss: 1.06347 | 
+2025-07-20 19:01:09,748 [INFO] [Iter 2] LR: 0.10000000
+2025-07-20 19:01:09,749 [INFO] Saving best model at iteration 2
+2025-07-20 19:01:11,483 [INFO] [3/300] loss 364.263 | compact 7.97522 | spectral 5.80168 | recons_loss: 0.384128 | sparse_loss: 1.06318 | 
+2025-07-20 19:01:11,484 [INFO] [Iter 3] LR: 0.10000000
+2025-07-20 19:01:11,486 [INFO] Saving best model at iteration 3
+2025-07-20 19:01:13,219 [INFO] [4/300] loss 363.896 | compact 7.9735 | spectral 5.79217 | recons_loss: 0.379683 | sparse_loss: 1.06287 | 
+2025-07-20 19:01:13,219 [INFO] [Iter 4] LR: 0.10000000
+2025-07-20 19:01:13,220 [INFO] Saving best model at iteration 4
+2025-07-20 19:01:14,952 [INFO] [5/300] loss 363.52 | compact 7.97275 | spectral 5.78205 | recons_loss: 0.374858 | sparse_loss: 1.06252 | 
+2025-07-20 19:01:14,953 [INFO] [Iter 5] LR: 0.10000000
+2025-07-20 19:01:14,955 [INFO] Saving best model at iteration 5
+2025-07-20 19:01:16,692 [INFO] [6/300] loss 363.143 | compact 7.9734 | spectral 5.77172 | recons_loss: 0.369846 | sparse_loss: 1.06216 | 
+2025-07-20 19:01:16,692 [INFO] [Iter 6] LR: 0.10000000
+2025-07-20 19:01:16,695 [INFO] Saving best model at iteration 6
+2025-07-20 19:01:18,419 [INFO] [7/300] loss 362.766 | compact 7.97477 | spectral 5.75926 | recons_loss: 0.364776 | sparse_loss: 1.06178 | 
+2025-07-20 19:01:18,419 [INFO] [Iter 7] LR: 0.10000000
+2025-07-20 19:01:18,420 [INFO] Saving best model at iteration 7
+2025-07-20 19:01:20,145 [INFO] [8/300] loss 362.397 | compact 7.97662 | spectral 5.74659 | recons_loss: 0.359753 | sparse_loss: 1.0614 | 
+2025-07-20 19:01:20,145 [INFO] [Iter 8] LR: 0.10000000
+2025-07-20 19:01:20,147 [INFO] Saving best model at iteration 8
+2025-07-20 19:01:21,885 [INFO] [9/300] loss 362.041 | compact 7.97889 | spectral 5.73564 | recons_loss: 0.354861 | sparse_loss: 1.06103 | 
+2025-07-20 19:01:21,886 [INFO] [Iter 9] LR: 0.10000000
+2025-07-20 19:01:21,888 [INFO] Saving best model at iteration 9
+2025-07-20 19:01:23,621 [INFO] [10/300] loss 361.695 | compact 7.98241 | spectral 5.72449 | recons_loss: 0.350144 | sparse_loss: 1.06069 | 
+2025-07-20 19:01:23,622 [INFO] [Iter 10] LR: 0.10000000
+2025-07-20 19:01:23,624 [INFO] Saving best model at iteration 10
+2025-07-20 19:01:25,357 [INFO] [11/300] loss 361.36 | compact 7.98656 | spectral 5.71435 | recons_loss: 0.345651 | sparse_loss: 1.06036 | 
+2025-07-20 19:01:25,358 [INFO] [Iter 11] LR: 0.10000000
+2025-07-20 19:01:25,360 [INFO] Saving best model at iteration 11
+2025-07-20 19:01:27,086 [INFO] [12/300] loss 361.04 | compact 7.99122 | spectral 5.70615 | recons_loss: 0.341387 | sparse_loss: 1.06007 | 
+2025-07-20 19:01:27,086 [INFO] [Iter 12] LR: 0.10000000
+2025-07-20 19:01:27,088 [INFO] Saving best model at iteration 12
+2025-07-20 19:01:28,815 [INFO] [13/300] loss 360.733 | compact 7.99719 | spectral 5.69863 | recons_loss: 0.337357 | sparse_loss: 1.05982 | 
+2025-07-20 19:01:28,816 [INFO] [Iter 13] LR: 0.10000000
+2025-07-20 19:01:28,817 [INFO] Saving best model at iteration 13
+2025-07-20 19:01:30,555 [INFO] [14/300] loss 360.438 | compact 8.00359 | spectral 5.69228 | recons_loss: 0.333565 | sparse_loss: 1.0596 | 
+2025-07-20 19:01:30,556 [INFO] [Iter 14] LR: 0.10000000
+2025-07-20 19:01:30,557 [INFO] Saving best model at iteration 14
+2025-07-20 19:01:32,295 [INFO] [15/300] loss 360.156 | compact 8.01064 | spectral 5.68619 | recons_loss: 0.330011 | sparse_loss: 1.05941 | 
+2025-07-20 19:01:32,295 [INFO] [Iter 15] LR: 0.10000000
+2025-07-20 19:01:32,298 [INFO] Saving best model at iteration 15
+2025-07-20 19:01:34,029 [INFO] [16/300] loss 359.884 | compact 8.01891 | spectral 5.6805 | recons_loss: 0.326677 | sparse_loss: 1.05922 | 
+2025-07-20 19:01:34,029 [INFO] [Iter 16] LR: 0.10000000
+2025-07-20 19:01:34,031 [INFO] Saving best model at iteration 16
+2025-07-20 19:01:35,774 [INFO] [17/300] loss 359.623 | compact 8.0285 | spectral 5.67477 | recons_loss: 0.323547 | sparse_loss: 1.05907 | 
+2025-07-20 19:01:35,775 [INFO] [Iter 17] LR: 0.10000000
+2025-07-20 19:01:35,776 [INFO] Saving best model at iteration 17
+2025-07-20 19:01:37,516 [INFO] [18/300] loss 359.372 | compact 8.03836 | spectral 5.67037 | recons_loss: 0.320612 | sparse_loss: 1.05892 | 
+2025-07-20 19:01:37,517 [INFO] [Iter 18] LR: 0.10000000
+2025-07-20 19:01:37,518 [INFO] Saving best model at iteration 18
+2025-07-20 19:01:39,258 [INFO] [19/300] loss 359.132 | compact 8.04871 | spectral 5.66646 | recons_loss: 0.317862 | sparse_loss: 1.05879 | 
+2025-07-20 19:01:39,258 [INFO] [Iter 19] LR: 0.10000000
+2025-07-20 19:01:39,260 [INFO] Saving best model at iteration 19
+2025-07-20 19:01:40,994 [INFO] [20/300] loss 358.901 | compact 8.05995 | spectral 5.66283 | recons_loss: 0.315286 | sparse_loss: 1.05867 | 
+2025-07-20 19:01:40,994 [INFO] [Iter 20] LR: 0.10000000
+2025-07-20 19:01:40,995 [INFO] Saving best model at iteration 20
+2025-07-20 19:01:42,720 [INFO] [21/300] loss 358.679 | compact 8.07172 | spectral 5.65939 | recons_loss: 0.312874 | sparse_loss: 1.05855 | 
+2025-07-20 19:01:42,720 [INFO] [Iter 21] LR: 0.10000000
+2025-07-20 19:01:42,722 [INFO] Saving best model at iteration 21
+2025-07-20 19:01:44,457 [INFO] [22/300] loss 358.465 | compact 8.08407 | spectral 5.65626 | recons_loss: 0.310612 | sparse_loss: 1.05845 | 
+2025-07-20 19:01:44,457 [INFO] [Iter 22] LR: 0.10000000
+2025-07-20 19:01:44,459 [INFO] Saving best model at iteration 22
+2025-07-20 19:01:46,185 [INFO] [23/300] loss 358.261 | compact 8.09648 | spectral 5.65351 | recons_loss: 0.308496 | sparse_loss: 1.05836 | 
+2025-07-20 19:01:46,186 [INFO] [Iter 23] LR: 0.10000000
+2025-07-20 19:01:46,187 [INFO] Saving best model at iteration 23
+2025-07-20 19:01:47,914 [INFO] [24/300] loss 358.065 | compact 8.10921 | spectral 5.65152 | recons_loss: 0.306505 | sparse_loss: 1.05827 | 
+2025-07-20 19:01:47,914 [INFO] [Iter 24] LR: 0.10000000
+2025-07-20 19:01:47,915 [INFO] Saving best model at iteration 24
+2025-07-20 19:01:49,651 [INFO] [25/300] loss 357.877 | compact 8.12262 | spectral 5.64931 | recons_loss: 0.304635 | sparse_loss: 1.05818 | 
+2025-07-20 19:01:49,651 [INFO] [Iter 25] LR: 0.10000000
+2025-07-20 19:01:49,652 [INFO] Saving best model at iteration 25
+2025-07-20 19:01:51,397 [INFO] [26/300] loss 357.696 | compact 8.1362 | spectral 5.64774 | recons_loss: 0.302868 | sparse_loss: 1.0581 | 
+2025-07-20 19:01:51,397 [INFO] [Iter 26] LR: 0.10000000
+2025-07-20 19:01:51,400 [INFO] Saving best model at iteration 26
+2025-07-20 19:01:53,127 [INFO] [27/300] loss 357.522 | compact 8.15058 | spectral 5.64622 | recons_loss: 0.301208 | sparse_loss: 1.05802 | 
+2025-07-20 19:01:53,127 [INFO] [Iter 27] LR: 0.10000000
+2025-07-20 19:01:53,128 [INFO] Saving best model at iteration 27
+2025-07-20 19:01:54,858 [INFO] [28/300] loss 357.356 | compact 8.16545 | spectral 5.64535 | recons_loss: 0.299637 | sparse_loss: 1.05794 | 
+2025-07-20 19:01:54,858 [INFO] [Iter 28] LR: 0.10000000
+2025-07-20 19:01:54,859 [INFO] Saving best model at iteration 28
+2025-07-20 19:01:56,601 [INFO] [29/300] loss 357.197 | compact 8.18076 | spectral 5.64593 | recons_loss: 0.298161 | sparse_loss: 1.05785 | 
+2025-07-20 19:01:56,601 [INFO] [Iter 29] LR: 0.10000000
+2025-07-20 19:01:56,603 [INFO] Saving best model at iteration 29
+2025-07-20 19:01:58,344 [INFO] [30/300] loss 357.043 | compact 8.19636 | spectral 5.64577 | recons_loss: 0.296766 | sparse_loss: 1.05777 | 
+2025-07-20 19:01:58,345 [INFO] [Iter 30] LR: 0.10000000
+2025-07-20 19:01:58,346 [INFO] Saving best model at iteration 30
+2025-07-20 19:02:00,072 [INFO] [31/300] loss 356.895 | compact 8.21162 | spectral 5.64575 | recons_loss: 0.295446 | sparse_loss: 1.05769 | 
+2025-07-20 19:02:00,073 [INFO] [Iter 31] LR: 0.10000000
+2025-07-20 19:02:00,075 [INFO] Saving best model at iteration 31
+2025-07-20 19:02:01,810 [INFO] [32/300] loss 356.752 | compact 8.22677 | spectral 5.64529 | recons_loss: 0.294191 | sparse_loss: 1.05761 | 
+2025-07-20 19:02:01,810 [INFO] [Iter 32] LR: 0.10000000
+2025-07-20 19:02:01,811 [INFO] Saving best model at iteration 32
+2025-07-20 19:02:03,537 [INFO] [33/300] loss 356.613 | compact 8.2416 | spectral 5.64539 | recons_loss: 0.29299 | sparse_loss: 1.05754 | 
+2025-07-20 19:02:03,537 [INFO] [Iter 33] LR: 0.10000000
+2025-07-20 19:02:03,538 [INFO] Saving best model at iteration 33
+2025-07-20 19:02:05,277 [INFO] [34/300] loss 356.479 | compact 8.25651 | spectral 5.64546 | recons_loss: 0.29184 | sparse_loss: 1.05746 | 
+2025-07-20 19:02:05,277 [INFO] [Iter 34] LR: 0.10000000
+2025-07-20 19:02:05,278 [INFO] Saving best model at iteration 34
+2025-07-20 19:02:07,010 [INFO] [35/300] loss 356.349 | compact 8.27135 | spectral 5.64579 | recons_loss: 0.290731 | sparse_loss: 1.05739 | 
+2025-07-20 19:02:07,010 [INFO] [Iter 35] LR: 0.10000000
+2025-07-20 19:02:07,011 [INFO] Saving best model at iteration 35
+2025-07-20 19:02:08,742 [INFO] [36/300] loss 356.223 | compact 8.28648 | spectral 5.64582 | recons_loss: 0.289669 | sparse_loss: 1.05733 | 
+2025-07-20 19:02:08,743 [INFO] [Iter 36] LR: 0.10000000
+2025-07-20 19:02:08,744 [INFO] Saving best model at iteration 36
+2025-07-20 19:02:10,483 [INFO] [37/300] loss 356.1 | compact 8.30113 | spectral 5.64643 | recons_loss: 0.288644 | sparse_loss: 1.05725 | 
+2025-07-20 19:02:10,483 [INFO] [Iter 37] LR: 0.10000000
+2025-07-20 19:02:10,484 [INFO] Saving best model at iteration 37
+2025-07-20 19:02:12,223 [INFO] [38/300] loss 355.982 | compact 8.31541 | spectral 5.64688 | recons_loss: 0.287667 | sparse_loss: 1.05718 | 
+2025-07-20 19:02:12,223 [INFO] [Iter 38] LR: 0.10000000
+2025-07-20 19:02:12,224 [INFO] Saving best model at iteration 38
+2025-07-20 19:02:13,963 [INFO] [39/300] loss 355.865 | compact 8.33021 | spectral 5.64653 | recons_loss: 0.286724 | sparse_loss: 1.05711 | 
+2025-07-20 19:02:13,963 [INFO] [Iter 39] LR: 0.10000000
+2025-07-20 19:02:13,964 [INFO] Saving best model at iteration 39
+2025-07-20 19:02:15,706 [INFO] [40/300] loss 355.752 | compact 8.34475 | spectral 5.64653 | recons_loss: 0.285811 | sparse_loss: 1.05705 | 
+2025-07-20 19:02:15,706 [INFO] [Iter 40] LR: 0.10000000
+2025-07-20 19:02:15,707 [INFO] Saving best model at iteration 40
+2025-07-20 19:02:17,435 [INFO] [41/300] loss 355.641 | compact 8.35949 | spectral 5.64624 | recons_loss: 0.284927 | sparse_loss: 1.05699 | 
+2025-07-20 19:02:17,436 [INFO] [Iter 41] LR: 0.10000000
+2025-07-20 19:02:17,437 [INFO] Saving best model at iteration 41
+2025-07-20 19:02:19,165 [INFO] [42/300] loss 355.535 | compact 8.37421 | spectral 5.64623 | recons_loss: 0.284072 | sparse_loss: 1.05693 | 
+2025-07-20 19:02:19,165 [INFO] [Iter 42] LR: 0.10000000
+2025-07-20 19:02:19,168 [INFO] Saving best model at iteration 42
+2025-07-20 19:02:20,900 [INFO] [43/300] loss 355.432 | compact 8.38961 | spectral 5.64595 | recons_loss: 0.283245 | sparse_loss: 1.05688 | 
+2025-07-20 19:02:20,900 [INFO] [Iter 43] LR: 0.10000000
+2025-07-20 19:02:20,902 [INFO] Saving best model at iteration 43
+2025-07-20 19:02:22,641 [INFO] [44/300] loss 355.331 | compact 8.40487 | spectral 5.64538 | recons_loss: 0.282444 | sparse_loss: 1.05683 | 
+2025-07-20 19:02:22,641 [INFO] [Iter 44] LR: 0.10000000
+2025-07-20 19:02:22,643 [INFO] Saving best model at iteration 44
+2025-07-20 19:02:24,381 [INFO] [45/300] loss 355.233 | compact 8.41981 | spectral 5.64511 | recons_loss: 0.281669 | sparse_loss: 1.05677 | 
+2025-07-20 19:02:24,381 [INFO] [Iter 45] LR: 0.10000000
+2025-07-20 19:02:24,383 [INFO] Saving best model at iteration 45
+2025-07-20 19:02:26,120 [INFO] [46/300] loss 355.137 | compact 8.43458 | spectral 5.64441 | recons_loss: 0.280923 | sparse_loss: 1.05672 | 
+2025-07-20 19:02:26,120 [INFO] [Iter 46] LR: 0.10000000
+2025-07-20 19:02:26,122 [INFO] Saving best model at iteration 46
+2025-07-20 19:02:27,847 [INFO] [47/300] loss 355.043 | compact 8.44922 | spectral 5.64401 | recons_loss: 0.280195 | sparse_loss: 1.05666 | 
+2025-07-20 19:02:27,847 [INFO] [Iter 47] LR: 0.10000000
+2025-07-20 19:02:27,849 [INFO] Saving best model at iteration 47
+2025-07-20 19:02:29,592 [INFO] [48/300] loss 354.953 | compact 8.46357 | spectral 5.64366 | recons_loss: 0.279489 | sparse_loss: 1.0566 | 
+2025-07-20 19:02:29,592 [INFO] [Iter 48] LR: 0.10000000
+2025-07-20 19:02:29,593 [INFO] Saving best model at iteration 48
+2025-07-20 19:02:31,321 [INFO] [49/300] loss 354.863 | compact 8.47759 | spectral 5.64279 | recons_loss: 0.278797 | sparse_loss: 1.05655 | 
+2025-07-20 19:02:31,321 [INFO] [Iter 49] LR: 0.10000000
+2025-07-20 19:02:31,322 [INFO] Saving best model at iteration 49
+2025-07-20 19:02:31,749 [INFO] H: 217, W: 512
+2025-07-20 19:02:32,119 [INFO] [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15]
+2025-07-20 19:02:32,244 [INFO] y_target: [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16]
+2025-07-20 19:02:32,245 [INFO] y_predict: [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15]
+2025-07-20 19:02:32,407 [INFO] Epoch = 50 OA = 0.7797 Kappa = 0.7533 NMI = 0.8154
+2025-07-20 19:02:33,835 [INFO] [50/300] loss 354.778 | compact 8.49085 | spectral 5.6428 | recons_loss: 0.278124 | sparse_loss: 1.0565 | 
+2025-07-20 19:02:33,835 [INFO] [Iter 50] LR: 0.10000000
+2025-07-20 19:02:33,837 [INFO] Saving best model at iteration 50
+2025-07-20 19:02:35,576 [INFO] [51/300] loss 354.692 | compact 8.50402 | spectral 5.64268 | recons_loss: 0.277457 | sparse_loss: 1.05645 | 
+2025-07-20 19:02:35,576 [INFO] [Iter 51] LR: 0.10000000
+2025-07-20 19:02:35,577 [INFO] Saving best model at iteration 51
+2025-07-20 19:02:37,315 [INFO] [52/300] loss 354.609 | compact 8.51734 | spectral 5.64292 | recons_loss: 0.2768 | sparse_loss: 1.0564 | 
+2025-07-20 19:02:37,315 [INFO] [Iter 52] LR: 0.10000000
+2025-07-20 19:02:37,317 [INFO] Saving best model at iteration 52
+2025-07-20 19:02:39,055 [INFO] [53/300] loss 354.529 | compact 8.53032 | spectral 5.64384 | recons_loss: 0.276157 | sparse_loss: 1.05635 | 
+2025-07-20 19:02:39,055 [INFO] [Iter 53] LR: 0.10000000
+2025-07-20 19:02:39,056 [INFO] Saving best model at iteration 53
+2025-07-20 19:02:40,795 [INFO] [54/300] loss 354.451 | compact 8.54325 | spectral 5.64489 | recons_loss: 0.275536 | sparse_loss: 1.0563 | 
+2025-07-20 19:02:40,796 [INFO] [Iter 54] LR: 0.10000000
+2025-07-20 19:02:40,797 [INFO] Saving best model at iteration 54
+2025-07-20 19:02:42,535 [INFO] [55/300] loss 354.374 | compact 8.55668 | spectral 5.64506 | recons_loss: 0.274927 | sparse_loss: 1.05626 | 
+2025-07-20 19:02:42,535 [INFO] [Iter 55] LR: 0.10000000
+2025-07-20 19:02:42,537 [INFO] Saving best model at iteration 55
+2025-07-20 19:02:44,262 [INFO] [56/300] loss 354.301 | compact 8.56932 | spectral 5.64554 | recons_loss: 0.274336 | sparse_loss: 1.05622 | 
+2025-07-20 19:02:44,263 [INFO] [Iter 56] LR: 0.10000000
+2025-07-20 19:02:44,264 [INFO] Saving best model at iteration 56
+2025-07-20 19:02:45,992 [INFO] [57/300] loss 354.229 | compact 8.58171 | spectral 5.64615 | recons_loss: 0.273759 | sparse_loss: 1.05619 | 
+2025-07-20 19:02:45,992 [INFO] [Iter 57] LR: 0.10000000
+2025-07-20 19:02:45,993 [INFO] Saving best model at iteration 57
+2025-07-20 19:02:47,728 [INFO] [58/300] loss 354.157 | compact 8.59422 | spectral 5.64583 | recons_loss: 0.273191 | sparse_loss: 1.05615 | 
+2025-07-20 19:02:47,729 [INFO] [Iter 58] LR: 0.10000000
+2025-07-20 19:02:47,731 [INFO] Saving best model at iteration 58
+2025-07-20 19:02:49,470 [INFO] [59/300] loss 354.085 | compact 8.60676 | spectral 5.64569 | recons_loss: 0.272627 | sparse_loss: 1.05611 | 
+2025-07-20 19:02:49,470 [INFO] [Iter 59] LR: 0.10000000
+2025-07-20 19:02:49,472 [INFO] Saving best model at iteration 59
+2025-07-20 19:02:51,210 [INFO] [60/300] loss 354.015 | compact 8.61927 | spectral 5.64576 | recons_loss: 0.272077 | sparse_loss: 1.05608 | 
+2025-07-20 19:02:51,210 [INFO] [Iter 60] LR: 0.10000000
+2025-07-20 19:02:51,211 [INFO] Saving best model at iteration 60
+2025-07-20 19:02:52,944 [INFO] [61/300] loss 353.946 | compact 8.63197 | spectral 5.64545 | recons_loss: 0.271535 | sparse_loss: 1.05604 | 
+2025-07-20 19:02:52,944 [INFO] [Iter 61] LR: 0.10000000
+2025-07-20 19:02:52,946 [INFO] Saving best model at iteration 61
+2025-07-20 19:02:54,672 [INFO] [62/300] loss 353.878 | compact 8.64447 | spectral 5.64517 | recons_loss: 0.271002 | sparse_loss: 1.05601 | 
+2025-07-20 19:02:54,672 [INFO] [Iter 62] LR: 0.10000000
+2025-07-20 19:02:54,674 [INFO] Saving best model at iteration 62
+2025-07-20 19:02:56,410 [INFO] [63/300] loss 353.811 | compact 8.65716 | spectral 5.64484 | recons_loss: 0.27047 | sparse_loss: 1.05598 | 
+2025-07-20 19:02:56,410 [INFO] [Iter 63] LR: 0.10000000
+2025-07-20 19:02:56,412 [INFO] Saving best model at iteration 63
+2025-07-20 19:02:58,144 [INFO] [64/300] loss 353.745 | compact 8.66927 | spectral 5.64494 | recons_loss: 0.269946 | sparse_loss: 1.05595 | 
+2025-07-20 19:02:58,144 [INFO] [Iter 64] LR: 0.10000000
+2025-07-20 19:02:58,145 [INFO] Saving best model at iteration 64
+2025-07-20 19:02:59,874 [INFO] [65/300] loss 353.679 | compact 8.68147 | spectral 5.64532 | recons_loss: 0.269429 | sparse_loss: 1.05591 | 
+2025-07-20 19:02:59,874 [INFO] [Iter 65] LR: 0.10000000
+2025-07-20 19:02:59,875 [INFO] Saving best model at iteration 65
+2025-07-20 19:03:01,605 [INFO] [66/300] loss 353.615 | compact 8.69277 | spectral 5.6465 | recons_loss: 0.268919 | sparse_loss: 1.05587 | 
+2025-07-20 19:03:01,606 [INFO] [Iter 66] LR: 0.10000000
+2025-07-20 19:03:01,607 [INFO] Saving best model at iteration 66
+2025-07-20 19:03:03,351 [INFO] [67/300] loss 353.552 | compact 8.70366 | spectral 5.64778 | recons_loss: 0.268415 | sparse_loss: 1.05583 | 
+2025-07-20 19:03:03,352 [INFO] [Iter 67] LR: 0.10000000
+2025-07-20 19:03:03,353 [INFO] Saving best model at iteration 67
+2025-07-20 19:03:05,093 [INFO] [68/300] loss 353.49 | compact 8.71406 | spectral 5.64891 | recons_loss: 0.267917 | sparse_loss: 1.05579 | 
+2025-07-20 19:03:05,094 [INFO] [Iter 68] LR: 0.10000000
+2025-07-20 19:03:05,095 [INFO] Saving best model at iteration 68
+2025-07-20 19:03:06,822 [INFO] [69/300] loss 353.428 | compact 8.72433 | spectral 5.65021 | recons_loss: 0.267425 | sparse_loss: 1.05575 | 
+2025-07-20 19:03:06,822 [INFO] [Iter 69] LR: 0.10000000
+2025-07-20 19:03:06,824 [INFO] Saving best model at iteration 69
+2025-07-20 19:03:08,559 [INFO] [70/300] loss 353.367 | compact 8.73512 | spectral 5.65126 | recons_loss: 0.266934 | sparse_loss: 1.05571 | 
+2025-07-20 19:03:08,559 [INFO] [Iter 70] LR: 0.10000000
+2025-07-20 19:03:08,560 [INFO] Saving best model at iteration 70
+2025-07-20 19:03:10,290 [INFO] [71/300] loss 353.308 | compact 8.74543 | spectral 5.65341 | recons_loss: 0.266442 | sparse_loss: 1.05567 | 
+2025-07-20 19:03:10,290 [INFO] [Iter 71] LR: 0.10000000
+2025-07-20 19:03:10,292 [INFO] Saving best model at iteration 71
+2025-07-20 19:03:12,030 [INFO] [72/300] loss 353.251 | compact 8.75572 | spectral 5.65614 | recons_loss: 0.265962 | sparse_loss: 1.05563 | 
+2025-07-20 19:03:12,030 [INFO] [Iter 72] LR: 0.10000000
+2025-07-20 19:03:12,032 [INFO] Saving best model at iteration 72
+2025-07-20 19:03:13,771 [INFO] [73/300] loss 353.195 | compact 8.76567 | spectral 5.65922 | recons_loss: 0.26548 | sparse_loss: 1.05561 | 
+2025-07-20 19:03:13,771 [INFO] [Iter 73] LR: 0.10000000
+2025-07-20 19:03:13,772 [INFO] Saving best model at iteration 73
+2025-07-20 19:03:15,513 [INFO] [74/300] loss 353.139 | compact 8.775 | spectral 5.66274 | recons_loss: 0.265004 | sparse_loss: 1.05558 | 
+2025-07-20 19:03:15,513 [INFO] [Iter 74] LR: 0.10000000
+2025-07-20 19:03:15,515 [INFO] Saving best model at iteration 74
+2025-07-20 19:03:17,241 [INFO] [75/300] loss 353.086 | compact 8.78461 | spectral 5.6663 | recons_loss: 0.264552 | sparse_loss: 1.05555 | 
+2025-07-20 19:03:17,242 [INFO] [Iter 75] LR: 0.10000000
+2025-07-20 19:03:17,244 [INFO] Saving best model at iteration 75
+2025-07-20 19:03:18,977 [INFO] [76/300] loss 353.033 | compact 8.79413 | spectral 5.66928 | recons_loss: 0.264102 | sparse_loss: 1.05552 | 
+2025-07-20 19:03:18,978 [INFO] [Iter 76] LR: 0.10000000
+2025-07-20 19:03:18,979 [INFO] Saving best model at iteration 76
+2025-07-20 19:03:20,715 [INFO] [77/300] loss 352.977 | compact 8.80388 | spectral 5.67172 | recons_loss: 0.263647 | sparse_loss: 1.05548 | 
+2025-07-20 19:03:20,715 [INFO] [Iter 77] LR: 0.10000000
+2025-07-20 19:03:20,716 [INFO] Saving best model at iteration 77
+2025-07-20 19:03:22,460 [INFO] [78/300] loss 352.922 | compact 8.8131 | spectral 5.67444 | recons_loss: 0.2632 | sparse_loss: 1.05544 | 
+2025-07-20 19:03:22,460 [INFO] [Iter 78] LR: 0.10000000
+2025-07-20 19:03:22,461 [INFO] Saving best model at iteration 78
+2025-07-20 19:03:24,200 [INFO] [79/300] loss 352.869 | compact 8.82195 | spectral 5.67725 | recons_loss: 0.262767 | sparse_loss: 1.05541 | 
+2025-07-20 19:03:24,200 [INFO] [Iter 79] LR: 0.10000000
+2025-07-20 19:03:24,201 [INFO] Saving best model at iteration 79
+2025-07-20 19:03:25,937 [INFO] [80/300] loss 352.814 | compact 8.83101 | spectral 5.67915 | recons_loss: 0.262337 | sparse_loss: 1.05537 | 
+2025-07-20 19:03:25,937 [INFO] [Iter 80] LR: 0.10000000
+2025-07-20 19:03:25,938 [INFO] Saving best model at iteration 80
+2025-07-20 19:03:27,670 [INFO] [81/300] loss 352.76 | compact 8.83923 | spectral 5.6815 | recons_loss: 0.261919 | sparse_loss: 1.05532 | 
+2025-07-20 19:03:27,670 [INFO] [Iter 81] LR: 0.10000000
+2025-07-20 19:03:27,671 [INFO] Saving best model at iteration 81
+2025-07-20 19:03:29,410 [INFO] [82/300] loss 352.707 | compact 8.84683 | spectral 5.68409 | recons_loss: 0.261507 | sparse_loss: 1.05528 | 
+2025-07-20 19:03:29,410 [INFO] [Iter 82] LR: 0.10000000
+2025-07-20 19:03:29,411 [INFO] Saving best model at iteration 82
+2025-07-20 19:03:31,147 [INFO] [83/300] loss 352.652 | compact 8.85498 | spectral 5.68591 | recons_loss: 0.261095 | sparse_loss: 1.05523 | 
+2025-07-20 19:03:31,147 [INFO] [Iter 83] LR: 0.10000000
+2025-07-20 19:03:31,149 [INFO] Saving best model at iteration 83
+2025-07-20 19:03:32,882 [INFO] [84/300] loss 352.597 | compact 8.86264 | spectral 5.68811 | recons_loss: 0.260688 | sparse_loss: 1.05518 | 
+2025-07-20 19:03:32,882 [INFO] [Iter 84] LR: 0.10000000
+2025-07-20 19:03:32,883 [INFO] Saving best model at iteration 84
+2025-07-20 19:03:34,622 [INFO] [85/300] loss 352.545 | compact 8.87015 | spectral 5.69075 | recons_loss: 0.260294 | sparse_loss: 1.05514 | 
+2025-07-20 19:03:34,622 [INFO] [Iter 85] LR: 0.10000000
+2025-07-20 19:03:34,624 [INFO] Saving best model at iteration 85
+2025-07-20 19:03:36,354 [INFO] [86/300] loss 352.492 | compact 8.87827 | spectral 5.69291 | recons_loss: 0.259912 | sparse_loss: 1.0551 | 
+2025-07-20 19:03:36,354 [INFO] [Iter 86] LR: 0.10000000
+2025-07-20 19:03:36,355 [INFO] Saving best model at iteration 86
+2025-07-20 19:03:38,083 [INFO] [87/300] loss 352.443 | compact 8.88642 | spectral 5.69533 | recons_loss: 0.259552 | sparse_loss: 1.05506 | 
+2025-07-20 19:03:38,083 [INFO] [Iter 87] LR: 0.10000000
+2025-07-20 19:03:38,085 [INFO] Saving best model at iteration 87
+2025-07-20 19:03:39,825 [INFO] [88/300] loss 352.393 | compact 8.89453 | spectral 5.6984 | recons_loss: 0.259188 | sparse_loss: 1.05502 | 
+2025-07-20 19:03:39,826 [INFO] [Iter 88] LR: 0.10000000
+2025-07-20 19:03:39,827 [INFO] Saving best model at iteration 88
+2025-07-20 19:03:41,561 [INFO] [89/300] loss 352.341 | compact 8.90299 | spectral 5.7015 | recons_loss: 0.25881 | sparse_loss: 1.05498 | 
+2025-07-20 19:03:41,561 [INFO] [Iter 89] LR: 0.10000000
+2025-07-20 19:03:41,562 [INFO] Saving best model at iteration 89
+2025-07-20 19:03:43,297 [INFO] [90/300] loss 352.29 | compact 8.91147 | spectral 5.70475 | recons_loss: 0.258434 | sparse_loss: 1.05494 | 
+2025-07-20 19:03:43,297 [INFO] [Iter 90] LR: 0.10000000
+2025-07-20 19:03:43,298 [INFO] Saving best model at iteration 90
+2025-07-20 19:03:45,034 [INFO] [91/300] loss 352.238 | compact 8.92003 | spectral 5.70788 | recons_loss: 0.25806 | sparse_loss: 1.05489 | 
+2025-07-20 19:03:45,034 [INFO] [Iter 91] LR: 0.10000000
+2025-07-20 19:03:45,035 [INFO] Saving best model at iteration 91
+2025-07-20 19:03:46,768 [INFO] [92/300] loss 352.186 | compact 8.92892 | spectral 5.71053 | recons_loss: 0.257694 | sparse_loss: 1.05485 | 
+2025-07-20 19:03:46,769 [INFO] [Iter 92] LR: 0.10000000
+2025-07-20 19:03:46,770 [INFO] Saving best model at iteration 92
+2025-07-20 19:03:48,498 [INFO] [93/300] loss 352.134 | compact 8.93876 | spectral 5.71296 | recons_loss: 0.257327 | sparse_loss: 1.0548 | 
+2025-07-20 19:03:48,498 [INFO] [Iter 93] LR: 0.10000000
+2025-07-20 19:03:48,499 [INFO] Saving best model at iteration 93
+2025-07-20 19:03:50,231 [INFO] [94/300] loss 352.081 | compact 8.94878 | spectral 5.71506 | recons_loss: 0.25696 | sparse_loss: 1.05476 | 
+2025-07-20 19:03:50,231 [INFO] [Iter 94] LR: 0.10000000
+2025-07-20 19:03:50,232 [INFO] Saving best model at iteration 94
+2025-07-20 19:03:51,974 [INFO] [95/300] loss 352.031 | compact 8.95875 | spectral 5.71867 | recons_loss: 0.256591 | sparse_loss: 1.05471 | 
+2025-07-20 19:03:51,974 [INFO] [Iter 95] LR: 0.10000000
+2025-07-20 19:03:51,976 [INFO] Saving best model at iteration 95
+2025-07-20 19:03:53,713 [INFO] [96/300] loss 351.98 | compact 8.96876 | spectral 5.72209 | recons_loss: 0.256223 | sparse_loss: 1.05466 | 
+2025-07-20 19:03:53,713 [INFO] [Iter 96] LR: 0.10000000
+2025-07-20 19:03:53,715 [INFO] Saving best model at iteration 96
+2025-07-20 19:03:55,446 [INFO] [97/300] loss 351.931 | compact 8.97906 | spectral 5.72459 | recons_loss: 0.255866 | sparse_loss: 1.05462 | 
+2025-07-20 19:03:55,446 [INFO] [Iter 97] LR: 0.10000000
+2025-07-20 19:03:55,448 [INFO] Saving best model at iteration 97
+2025-07-20 19:03:57,188 [INFO] [98/300] loss 351.881 | compact 8.98937 | spectral 5.72744 | recons_loss: 0.255512 | sparse_loss: 1.05456 | 
+2025-07-20 19:03:57,188 [INFO] [Iter 98] LR: 0.10000000
+2025-07-20 19:03:57,190 [INFO] Saving best model at iteration 98
+2025-07-20 19:03:58,923 [INFO] [99/300] loss 351.831 | compact 8.99923 | spectral 5.72919 | recons_loss: 0.255161 | sparse_loss: 1.05451 | 
+2025-07-20 19:03:58,923 [INFO] [Iter 99] LR: 0.10000000
+2025-07-20 19:03:58,924 [INFO] Saving best model at iteration 99
+2025-07-20 19:03:59,353 [INFO] H: 217, W: 512
+2025-07-20 19:03:59,515 [INFO] [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15]
+2025-07-20 19:03:59,642 [INFO] y_target: [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16]
+2025-07-20 19:03:59,642 [INFO] y_predict: [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15]
+2025-07-20 19:03:59,807 [INFO] Epoch = 100 OA = 0.7861 Kappa = 0.7604 NMI = 0.8212
+2025-07-20 19:04:01,232 [INFO] [100/300] loss 351.782 | compact 9.00922 | spectral 5.72991 | recons_loss: 0.254823 | sparse_loss: 1.05445 | 
+2025-07-20 19:04:01,232 [INFO] [Iter 100] LR: 0.10000000
+2025-07-20 19:04:01,233 [INFO] Saving best model at iteration 100
+2025-07-20 19:04:02,971 [INFO] [101/300] loss 351.735 | compact 9.01979 | spectral 5.73137 | recons_loss: 0.254497 | sparse_loss: 1.05441 | 
+2025-07-20 19:04:02,971 [INFO] [Iter 101] LR: 0.10000000
+2025-07-20 19:04:02,972 [INFO] Saving best model at iteration 101
+2025-07-20 19:04:04,711 [INFO] [102/300] loss 351.687 | compact 9.02988 | spectral 5.73334 | recons_loss: 0.254163 | sparse_loss: 1.05435 | 
+2025-07-20 19:04:04,712 [INFO] [Iter 102] LR: 0.10000000
+2025-07-20 19:04:04,713 [INFO] Saving best model at iteration 102
+2025-07-20 19:04:06,444 [INFO] [103/300] loss 351.64 | compact 9.03933 | spectral 5.73489 | recons_loss: 0.253841 | sparse_loss: 1.05431 | 
+2025-07-20 19:04:06,444 [INFO] [Iter 103] LR: 0.10000000
+2025-07-20 19:04:06,446 [INFO] Saving best model at iteration 103
+2025-07-20 19:04:08,178 [INFO] [104/300] loss 351.592 | compact 9.04858 | spectral 5.73641 | recons_loss: 0.253519 | sparse_loss: 1.05426 | 
+2025-07-20 19:04:08,179 [INFO] [Iter 104] LR: 0.10000000
+2025-07-20 19:04:08,180 [INFO] Saving best model at iteration 104
+2025-07-20 19:04:09,926 [INFO] [105/300] loss 351.542 | compact 9.05764 | spectral 5.73682 | recons_loss: 0.2532 | sparse_loss: 1.05421 | 
+2025-07-20 19:04:09,926 [INFO] [Iter 105] LR: 0.10000000
+2025-07-20 19:04:09,927 [INFO] Saving best model at iteration 105
+2025-07-20 19:04:11,667 [INFO] [106/300] loss 351.491 | compact 9.06667 | spectral 5.73686 | recons_loss: 0.252884 | sparse_loss: 1.05416 | 
+2025-07-20 19:04:11,667 [INFO] [Iter 106] LR: 0.10000000
+2025-07-20 19:04:11,669 [INFO] Saving best model at iteration 106
+2025-07-20 19:04:13,395 [INFO] [107/300] loss 351.44 | compact 9.07605 | spectral 5.73694 | recons_loss: 0.252568 | sparse_loss: 1.05411 | 
+2025-07-20 19:04:13,396 [INFO] [Iter 107] LR: 0.10000000
+2025-07-20 19:04:13,397 [INFO] Saving best model at iteration 107
+2025-07-20 19:04:15,127 [INFO] [108/300] loss 351.39 | compact 9.08508 | spectral 5.73698 | recons_loss: 0.252269 | sparse_loss: 1.05406 | 
+2025-07-20 19:04:15,128 [INFO] [Iter 108] LR: 0.10000000
+2025-07-20 19:04:15,129 [INFO] Saving best model at iteration 108
+2025-07-20 19:04:16,856 [INFO] [109/300] loss 351.34 | compact 9.09423 | spectral 5.73738 | recons_loss: 0.251953 | sparse_loss: 1.05402 | 
+2025-07-20 19:04:16,856 [INFO] [Iter 109] LR: 0.10000000
+2025-07-20 19:04:16,857 [INFO] Saving best model at iteration 109
+2025-07-20 19:04:18,590 [INFO] [110/300] loss 351.291 | compact 9.10304 | spectral 5.73958 | recons_loss: 0.251636 | sparse_loss: 1.05397 | 
+2025-07-20 19:04:18,590 [INFO] [Iter 110] LR: 0.10000000
+2025-07-20 19:04:18,591 [INFO] Saving best model at iteration 110
+2025-07-20 19:04:20,320 [INFO] [111/300] loss 351.241 | compact 9.1115 | spectral 5.74078 | recons_loss: 0.251319 | sparse_loss: 1.05393 | 
+2025-07-20 19:04:20,320 [INFO] [Iter 111] LR: 0.10000000
+2025-07-20 19:04:20,321 [INFO] Saving best model at iteration 111
+2025-07-20 19:04:22,056 [INFO] [112/300] loss 351.194 | compact 9.11918 | spectral 5.74507 | recons_loss: 0.251005 | sparse_loss: 1.05388 | 
+2025-07-20 19:04:22,057 [INFO] [Iter 112] LR: 0.10000000
+2025-07-20 19:04:22,059 [INFO] Saving best model at iteration 112
+2025-07-20 19:04:23,795 [INFO] [113/300] loss 351.147 | compact 9.12661 | spectral 5.74923 | recons_loss: 0.250691 | sparse_loss: 1.05384 | 
+2025-07-20 19:04:23,796 [INFO] [Iter 113] LR: 0.10000000
+2025-07-20 19:04:23,797 [INFO] Saving best model at iteration 113
+2025-07-20 19:04:25,530 [INFO] [114/300] loss 351.101 | compact 9.13373 | spectral 5.75295 | recons_loss: 0.250378 | sparse_loss: 1.05379 | 
+2025-07-20 19:04:25,530 [INFO] [Iter 114] LR: 0.10000000
+2025-07-20 19:04:25,531 [INFO] Saving best model at iteration 114
+2025-07-20 19:04:27,259 [INFO] [115/300] loss 351.053 | compact 9.14084 | spectral 5.75594 | recons_loss: 0.250061 | sparse_loss: 1.05374 | 
+2025-07-20 19:04:27,259 [INFO] [Iter 115] LR: 0.10000000
+2025-07-20 19:04:27,261 [INFO] Saving best model at iteration 115
+2025-07-20 19:04:28,991 [INFO] [116/300] loss 351.005 | compact 9.1476 | spectral 5.7589 | recons_loss: 0.249746 | sparse_loss: 1.05369 | 
+2025-07-20 19:04:28,991 [INFO] [Iter 116] LR: 0.10000000
+2025-07-20 19:04:28,993 [INFO] Saving best model at iteration 116
+2025-07-20 19:04:30,719 [INFO] [117/300] loss 350.958 | compact 9.15417 | spectral 5.76232 | recons_loss: 0.249434 | sparse_loss: 1.05364 | 
+2025-07-20 19:04:30,719 [INFO] [Iter 117] LR: 0.10000000
+2025-07-20 19:04:30,720 [INFO] Saving best model at iteration 117
+2025-07-20 19:04:32,450 [INFO] [118/300] loss 350.911 | compact 9.16072 | spectral 5.76543 | recons_loss: 0.249129 | sparse_loss: 1.05358 | 
+2025-07-20 19:04:32,450 [INFO] [Iter 118] LR: 0.10000000
+2025-07-20 19:04:32,452 [INFO] Saving best model at iteration 118
+2025-07-20 19:04:34,180 [INFO] [119/300] loss 350.864 | compact 9.16734 | spectral 5.768 | recons_loss: 0.248831 | sparse_loss: 1.05352 | 
+2025-07-20 19:04:34,180 [INFO] [Iter 119] LR: 0.10000000
+2025-07-20 19:04:34,183 [INFO] Saving best model at iteration 119
+2025-07-20 19:04:35,919 [INFO] [120/300] loss 350.815 | compact 9.17421 | spectral 5.77017 | recons_loss: 0.248528 | sparse_loss: 1.05347 | 
+2025-07-20 19:04:35,919 [INFO] [Iter 120] LR: 0.10000000
+2025-07-20 19:04:35,920 [INFO] Saving best model at iteration 120
+2025-07-20 19:04:37,650 [INFO] [121/300] loss 350.766 | compact 9.18149 | spectral 5.77116 | recons_loss: 0.248228 | sparse_loss: 1.05341 | 
+2025-07-20 19:04:37,650 [INFO] [Iter 121] LR: 0.10000000
+2025-07-20 19:04:37,652 [INFO] Saving best model at iteration 121
+2025-07-20 19:04:39,380 [INFO] [122/300] loss 350.716 | compact 9.18895 | spectral 5.77224 | recons_loss: 0.247936 | sparse_loss: 1.05334 | 
+2025-07-20 19:04:39,380 [INFO] [Iter 122] LR: 0.10000000
+2025-07-20 19:04:39,381 [INFO] Saving best model at iteration 122
+2025-07-20 19:04:41,117 [INFO] [123/300] loss 350.666 | compact 9.1961 | spectral 5.7732 | recons_loss: 0.247647 | sparse_loss: 1.05328 | 
+2025-07-20 19:04:41,118 [INFO] [Iter 123] LR: 0.10000000
+2025-07-20 19:04:41,119 [INFO] Saving best model at iteration 123
+2025-07-20 19:04:42,855 [INFO] [124/300] loss 350.614 | compact 9.20529 | spectral 5.77028 | recons_loss: 0.247382 | sparse_loss: 1.05322 | 
+2025-07-20 19:04:42,855 [INFO] [Iter 124] LR: 0.10000000
+2025-07-20 19:04:42,857 [INFO] Saving best model at iteration 124
+2025-07-20 19:04:44,591 [INFO] [125/300] loss 350.562 | compact 9.21415 | spectral 5.76776 | recons_loss: 0.247118 | sparse_loss: 1.05317 | 
+2025-07-20 19:04:44,591 [INFO] [Iter 125] LR: 0.10000000
+2025-07-20 19:04:44,592 [INFO] Saving best model at iteration 125
+2025-07-20 19:04:46,327 [INFO] [126/300] loss 350.51 | compact 9.22266 | spectral 5.7653 | recons_loss: 0.246856 | sparse_loss: 1.05312 | 
+2025-07-20 19:04:46,327 [INFO] [Iter 126] LR: 0.10000000
+2025-07-20 19:04:46,329 [INFO] Saving best model at iteration 126
+2025-07-20 19:04:48,060 [INFO] [127/300] loss 350.46 | compact 9.23114 | spectral 5.7644 | recons_loss: 0.246598 | sparse_loss: 1.05307 | 
+2025-07-20 19:04:48,061 [INFO] [Iter 127] LR: 0.10000000
+2025-07-20 19:04:48,062 [INFO] Saving best model at iteration 127
+2025-07-20 19:04:49,809 [INFO] [128/300] loss 350.41 | compact 9.23891 | spectral 5.76346 | recons_loss: 0.246342 | sparse_loss: 1.05301 | 
+2025-07-20 19:04:49,809 [INFO] [Iter 128] LR: 0.10000000
+2025-07-20 19:04:49,810 [INFO] Saving best model at iteration 128
+2025-07-20 19:04:51,542 [INFO] [129/300] loss 350.359 | compact 9.2469 | spectral 5.76252 | recons_loss: 0.246084 | sparse_loss: 1.05295 | 
+2025-07-20 19:04:51,542 [INFO] [Iter 129] LR: 0.10000000
+2025-07-20 19:04:51,544 [INFO] Saving best model at iteration 129
+2025-07-20 19:04:53,272 [INFO] [130/300] loss 350.309 | compact 9.25435 | spectral 5.76149 | recons_loss: 0.245832 | sparse_loss: 1.05289 | 
+2025-07-20 19:04:53,273 [INFO] [Iter 130] LR: 0.10000000
+2025-07-20 19:04:53,274 [INFO] Saving best model at iteration 130
+2025-07-20 19:04:55,001 [INFO] [131/300] loss 350.259 | compact 9.26134 | spectral 5.76206 | recons_loss: 0.245578 | sparse_loss: 1.05283 | 
+2025-07-20 19:04:55,001 [INFO] [Iter 131] LR: 0.10000000
+2025-07-20 19:04:55,004 [INFO] Saving best model at iteration 131
+2025-07-20 19:04:56,743 [INFO] [132/300] loss 350.21 | compact 9.26835 | spectral 5.7633 | recons_loss: 0.245321 | sparse_loss: 1.05277 | 
+2025-07-20 19:04:56,744 [INFO] [Iter 132] LR: 0.10000000
+2025-07-20 19:04:56,745 [INFO] Saving best model at iteration 132
+2025-07-20 19:04:58,472 [INFO] [133/300] loss 350.161 | compact 9.27502 | spectral 5.76442 | recons_loss: 0.245066 | sparse_loss: 1.0527 | 
+2025-07-20 19:04:58,472 [INFO] [Iter 133] LR: 0.10000000
+2025-07-20 19:04:58,474 [INFO] Saving best model at iteration 133
+2025-07-20 19:05:00,200 [INFO] [134/300] loss 350.113 | compact 9.2817 | spectral 5.76571 | recons_loss: 0.244809 | sparse_loss: 1.05264 | 
+2025-07-20 19:05:00,200 [INFO] [Iter 134] LR: 0.10000000
+2025-07-20 19:05:00,202 [INFO] Saving best model at iteration 134
+2025-07-20 19:05:01,938 [INFO] [135/300] loss 350.064 | compact 9.28844 | spectral 5.76598 | recons_loss: 0.244552 | sparse_loss: 1.05258 | 
+2025-07-20 19:05:01,938 [INFO] [Iter 135] LR: 0.10000000
+2025-07-20 19:05:01,940 [INFO] Saving best model at iteration 135
+2025-07-20 19:05:03,666 [INFO] [136/300] loss 350.015 | compact 9.29472 | spectral 5.76686 | recons_loss: 0.244291 | sparse_loss: 1.05252 | 
+2025-07-20 19:05:03,667 [INFO] [Iter 136] LR: 0.10000000
+2025-07-20 19:05:03,668 [INFO] Saving best model at iteration 136
+2025-07-20 19:05:05,405 [INFO] [137/300] loss 349.967 | compact 9.30084 | spectral 5.76855 | recons_loss: 0.244031 | sparse_loss: 1.05246 | 
+2025-07-20 19:05:05,406 [INFO] [Iter 137] LR: 0.10000000
+2025-07-20 19:05:05,408 [INFO] Saving best model at iteration 137
+2025-07-20 19:05:07,144 [INFO] [138/300] loss 349.919 | compact 9.30669 | spectral 5.77048 | recons_loss: 0.24377 | sparse_loss: 1.0524 | 
+2025-07-20 19:05:07,144 [INFO] [Iter 138] LR: 0.10000000
+2025-07-20 19:05:07,145 [INFO] Saving best model at iteration 138
+2025-07-20 19:05:08,875 [INFO] [139/300] loss 349.873 | compact 9.31321 | spectral 5.77254 | recons_loss: 0.243513 | sparse_loss: 1.05235 | 
+2025-07-20 19:05:08,875 [INFO] [Iter 139] LR: 0.10000000
+2025-07-20 19:05:08,877 [INFO] Saving best model at iteration 139
+2025-07-20 19:05:10,608 [INFO] [140/300] loss 349.827 | compact 9.31871 | spectral 5.77463 | recons_loss: 0.243259 | sparse_loss: 1.0523 | 
+2025-07-20 19:05:10,608 [INFO] [Iter 140] LR: 0.10000000
+2025-07-20 19:05:10,610 [INFO] Saving best model at iteration 140
+2025-07-20 19:05:12,346 [INFO] [141/300] loss 349.783 | compact 9.32441 | spectral 5.77667 | recons_loss: 0.243011 | sparse_loss: 1.05226 | 
+2025-07-20 19:05:12,346 [INFO] [Iter 141] LR: 0.10000000
+2025-07-20 19:05:12,347 [INFO] Saving best model at iteration 141
+2025-07-20 19:05:14,084 [INFO] [142/300] loss 349.739 | compact 9.32961 | spectral 5.77848 | recons_loss: 0.242763 | sparse_loss: 1.05221 | 
+2025-07-20 19:05:14,085 [INFO] [Iter 142] LR: 0.10000000
+2025-07-20 19:05:14,087 [INFO] Saving best model at iteration 142
+2025-07-20 19:05:15,813 [INFO] [143/300] loss 349.695 | compact 9.33493 | spectral 5.78038 | recons_loss: 0.242513 | sparse_loss: 1.05215 | 
+2025-07-20 19:05:15,813 [INFO] [Iter 143] LR: 0.10000000
+2025-07-20 19:05:15,815 [INFO] Saving best model at iteration 143
+2025-07-20 19:05:17,545 [INFO] [144/300] loss 349.65 | compact 9.34072 | spectral 5.78144 | recons_loss: 0.242261 | sparse_loss: 1.0521 | 
+2025-07-20 19:05:17,545 [INFO] [Iter 144] LR: 0.10000000
+2025-07-20 19:05:17,547 [INFO] Saving best model at iteration 144
+2025-07-20 19:05:19,273 [INFO] [145/300] loss 349.606 | compact 9.34631 | spectral 5.78355 | recons_loss: 0.242003 | sparse_loss: 1.05205 | 
+2025-07-20 19:05:19,274 [INFO] [Iter 145] LR: 0.10000000
+2025-07-20 19:05:19,275 [INFO] Saving best model at iteration 145
+2025-07-20 19:05:21,005 [INFO] [146/300] loss 349.563 | compact 9.35225 | spectral 5.78565 | recons_loss: 0.241745 | sparse_loss: 1.052 | 
+2025-07-20 19:05:21,006 [INFO] [Iter 146] LR: 0.10000000
+2025-07-20 19:05:21,007 [INFO] Saving best model at iteration 146
+2025-07-20 19:05:22,737 [INFO] [147/300] loss 349.518 | compact 9.3584 | spectral 5.78627 | recons_loss: 0.241487 | sparse_loss: 1.05196 | 
+2025-07-20 19:05:22,737 [INFO] [Iter 147] LR: 0.10000000
+2025-07-20 19:05:22,739 [INFO] Saving best model at iteration 147
+2025-07-20 19:05:24,479 [INFO] [148/300] loss 349.476 | compact 9.36429 | spectral 5.78722 | recons_loss: 0.241235 | sparse_loss: 1.05191 | 
+2025-07-20 19:05:24,480 [INFO] [Iter 148] LR: 0.10000000
+2025-07-20 19:05:24,481 [INFO] Saving best model at iteration 148
+2025-07-20 19:05:26,214 [INFO] [149/300] loss 349.434 | compact 9.36936 | spectral 5.78873 | recons_loss: 0.240976 | sparse_loss: 1.05187 | 
+2025-07-20 19:05:26,214 [INFO] [Iter 149] LR: 0.10000000
+2025-07-20 19:05:26,216 [INFO] Saving best model at iteration 149
+2025-07-20 19:05:26,640 [INFO] H: 217, W: 512
+2025-07-20 19:05:26,797 [INFO] [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15]
+2025-07-20 19:05:26,920 [INFO] y_target: [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16]
+2025-07-20 19:05:26,921 [INFO] y_predict: [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15]
+2025-07-20 19:05:27,084 [INFO] Epoch = 150 OA = 0.7923 Kappa = 0.7674 NMI = 0.8237
+2025-07-20 19:05:28,508 [INFO] [150/300] loss 349.392 | compact 9.37495 | spectral 5.78929 | recons_loss: 0.240718 | sparse_loss: 1.05183 | 
+2025-07-20 19:05:28,508 [INFO] [Iter 150] LR: 0.10000000
+2025-07-20 19:05:28,510 [INFO] Saving best model at iteration 150
+2025-07-20 19:05:30,238 [INFO] [151/300] loss 349.351 | compact 9.3801 | spectral 5.78977 | recons_loss: 0.240466 | sparse_loss: 1.05178 | 
+2025-07-20 19:05:30,238 [INFO] [Iter 151] LR: 0.10000000
+2025-07-20 19:05:30,241 [INFO] Saving best model at iteration 151
+2025-07-20 19:05:31,977 [INFO] [152/300] loss 349.31 | compact 9.3855 | spectral 5.78975 | recons_loss: 0.240212 | sparse_loss: 1.05173 | 
+2025-07-20 19:05:31,978 [INFO] [Iter 152] LR: 0.10000000
+2025-07-20 19:05:31,980 [INFO] Saving best model at iteration 152
+2025-07-20 19:05:33,711 [INFO] [153/300] loss 349.27 | compact 9.39131 | spectral 5.78956 | recons_loss: 0.239957 | sparse_loss: 1.05168 | 
+2025-07-20 19:05:33,711 [INFO] [Iter 153] LR: 0.10000000
+2025-07-20 19:05:33,712 [INFO] Saving best model at iteration 153
+2025-07-20 19:05:35,438 [INFO] [154/300] loss 349.23 | compact 9.39704 | spectral 5.78981 | recons_loss: 0.239697 | sparse_loss: 1.05162 | 
+2025-07-20 19:05:35,438 [INFO] [Iter 154] LR: 0.10000000
+2025-07-20 19:05:35,440 [INFO] Saving best model at iteration 154
+2025-07-20 19:05:37,175 [INFO] [155/300] loss 349.188 | compact 9.40264 | spectral 5.78946 | recons_loss: 0.239437 | sparse_loss: 1.05156 | 
+2025-07-20 19:05:37,176 [INFO] [Iter 155] LR: 0.10000000
+2025-07-20 19:05:37,177 [INFO] Saving best model at iteration 155
+2025-07-20 19:05:38,915 [INFO] [156/300] loss 349.147 | compact 9.40877 | spectral 5.78823 | recons_loss: 0.239177 | sparse_loss: 1.05151 | 
+2025-07-20 19:05:38,916 [INFO] [Iter 156] LR: 0.10000000
+2025-07-20 19:05:38,917 [INFO] Saving best model at iteration 156
+2025-07-20 19:05:40,651 [INFO] [157/300] loss 349.105 | compact 9.41533 | spectral 5.78717 | recons_loss: 0.238917 | sparse_loss: 1.05146 | 
+2025-07-20 19:05:40,651 [INFO] [Iter 157] LR: 0.10000000
+2025-07-20 19:05:40,652 [INFO] Saving best model at iteration 157
+2025-07-20 19:05:42,393 [INFO] [158/300] loss 349.066 | compact 9.42157 | spectral 5.78611 | recons_loss: 0.238672 | sparse_loss: 1.05142 | 
+2025-07-20 19:05:42,393 [INFO] [Iter 158] LR: 0.10000000
+2025-07-20 19:05:42,394 [INFO] Saving best model at iteration 158
+2025-07-20 19:05:44,125 [INFO] [159/300] loss 349.028 | compact 9.42766 | spectral 5.78597 | recons_loss: 0.23843 | sparse_loss: 1.05138 | 
+2025-07-20 19:05:44,126 [INFO] [Iter 159] LR: 0.10000000
+2025-07-20 19:05:44,127 [INFO] Saving best model at iteration 159
+2025-07-20 19:05:45,855 [INFO] [160/300] loss 348.988 | compact 9.43404 | spectral 5.7854 | recons_loss: 0.238186 | sparse_loss: 1.05134 | 
+2025-07-20 19:05:45,856 [INFO] [Iter 160] LR: 0.10000000
+2025-07-20 19:05:45,857 [INFO] Saving best model at iteration 160
+2025-07-20 19:05:47,588 [INFO] [161/300] loss 348.949 | compact 9.4402 | spectral 5.78545 | recons_loss: 0.237941 | sparse_loss: 1.0513 | 
+2025-07-20 19:05:47,589 [INFO] [Iter 161] LR: 0.10000000
+2025-07-20 19:05:47,590 [INFO] Saving best model at iteration 161
+2025-07-20 19:05:49,322 [INFO] [162/300] loss 348.91 | compact 9.44578 | spectral 5.78628 | recons_loss: 0.237695 | sparse_loss: 1.05125 | 
+2025-07-20 19:05:49,322 [INFO] [Iter 162] LR: 0.10000000
+2025-07-20 19:05:49,323 [INFO] Saving best model at iteration 162
+2025-07-20 19:05:51,054 [INFO] [163/300] loss 348.87 | compact 9.45132 | spectral 5.78761 | recons_loss: 0.237452 | sparse_loss: 1.05119 | 
+2025-07-20 19:05:51,055 [INFO] [Iter 163] LR: 0.10000000
+2025-07-20 19:05:51,057 [INFO] Saving best model at iteration 163
+2025-07-20 19:05:52,790 [INFO] [164/300] loss 348.83 | compact 9.45664 | spectral 5.78881 | recons_loss: 0.237208 | sparse_loss: 1.05114 | 
+2025-07-20 19:05:52,790 [INFO] [Iter 164] LR: 0.10000000
+2025-07-20 19:05:52,793 [INFO] Saving best model at iteration 164
+2025-07-20 19:05:54,538 [INFO] [165/300] loss 348.789 | compact 9.46231 | spectral 5.78951 | recons_loss: 0.236959 | sparse_loss: 1.05108 | 
+2025-07-20 19:05:54,539 [INFO] [Iter 165] LR: 0.10000000
+2025-07-20 19:05:54,541 [INFO] Saving best model at iteration 165
+2025-07-20 19:05:56,270 [INFO] [166/300] loss 348.748 | compact 9.46824 | spectral 5.79006 | recons_loss: 0.236709 | sparse_loss: 1.05103 | 
+2025-07-20 19:05:56,270 [INFO] [Iter 166] LR: 0.10000000
+2025-07-20 19:05:56,271 [INFO] Saving best model at iteration 166
+2025-07-20 19:05:58,008 [INFO] [167/300] loss 348.707 | compact 9.47355 | spectral 5.79131 | recons_loss: 0.236458 | sparse_loss: 1.05099 | 
+2025-07-20 19:05:58,008 [INFO] [Iter 167] LR: 0.10000000
+2025-07-20 19:05:58,009 [INFO] Saving best model at iteration 167
+2025-07-20 19:05:59,734 [INFO] [168/300] loss 348.664 | compact 9.47923 | spectral 5.79214 | recons_loss: 0.236203 | sparse_loss: 1.05094 | 
+2025-07-20 19:05:59,735 [INFO] [Iter 168] LR: 0.10000000
+2025-07-20 19:05:59,736 [INFO] Saving best model at iteration 168
+2025-07-20 19:06:01,469 [INFO] [169/300] loss 348.62 | compact 9.48449 | spectral 5.79281 | recons_loss: 0.235951 | sparse_loss: 1.0509 | 
+2025-07-20 19:06:01,470 [INFO] [Iter 169] LR: 0.10000000
+2025-07-20 19:06:01,472 [INFO] Saving best model at iteration 169
+2025-07-20 19:06:03,208 [INFO] [170/300] loss 348.576 | compact 9.48944 | spectral 5.79371 | recons_loss: 0.235702 | sparse_loss: 1.05085 | 
+2025-07-20 19:06:03,208 [INFO] [Iter 170] LR: 0.10000000
+2025-07-20 19:06:03,210 [INFO] Saving best model at iteration 170
+2025-07-20 19:06:04,935 [INFO] [171/300] loss 348.531 | compact 9.49479 | spectral 5.79407 | recons_loss: 0.235454 | sparse_loss: 1.0508 | 
+2025-07-20 19:06:04,936 [INFO] [Iter 171] LR: 0.10000000
+2025-07-20 19:06:04,937 [INFO] Saving best model at iteration 171
+2025-07-20 19:06:06,663 [INFO] [172/300] loss 348.487 | compact 9.50027 | spectral 5.79397 | recons_loss: 0.235209 | sparse_loss: 1.05076 | 
+2025-07-20 19:06:06,664 [INFO] [Iter 172] LR: 0.10000000
+2025-07-20 19:06:06,665 [INFO] Saving best model at iteration 172
+2025-07-20 19:06:08,395 [INFO] [173/300] loss 348.441 | compact 9.50576 | spectral 5.79358 | recons_loss: 0.234963 | sparse_loss: 1.05072 | 
+2025-07-20 19:06:08,396 [INFO] [Iter 173] LR: 0.10000000
+2025-07-20 19:06:08,398 [INFO] Saving best model at iteration 173
+2025-07-20 19:06:10,133 [INFO] [174/300] loss 348.397 | compact 9.51114 | spectral 5.79344 | recons_loss: 0.234714 | sparse_loss: 1.05068 | 
+2025-07-20 19:06:10,133 [INFO] [Iter 174] LR: 0.10000000
+2025-07-20 19:06:10,135 [INFO] Saving best model at iteration 174
+2025-07-20 19:06:11,881 [INFO] [175/300] loss 348.353 | compact 9.51656 | spectral 5.79375 | recons_loss: 0.234463 | sparse_loss: 1.05064 | 
+2025-07-20 19:06:11,881 [INFO] [Iter 175] LR: 0.10000000
+2025-07-20 19:06:11,883 [INFO] Saving best model at iteration 175
+2025-07-20 19:06:13,621 [INFO] [176/300] loss 348.31 | compact 9.52199 | spectral 5.79446 | recons_loss: 0.234214 | sparse_loss: 1.0506 | 
+2025-07-20 19:06:13,622 [INFO] [Iter 176] LR: 0.10000000
+2025-07-20 19:06:13,624 [INFO] Saving best model at iteration 176
+2025-07-20 19:06:15,358 [INFO] [177/300] loss 348.267 | compact 9.52744 | spectral 5.79479 | recons_loss: 0.233962 | sparse_loss: 1.05056 | 
+2025-07-20 19:06:15,359 [INFO] [Iter 177] LR: 0.10000000
+2025-07-20 19:06:15,360 [INFO] Saving best model at iteration 177
+2025-07-20 19:06:17,093 [INFO] [178/300] loss 348.225 | compact 9.53215 | spectral 5.79561 | recons_loss: 0.233713 | sparse_loss: 1.05053 | 
+2025-07-20 19:06:17,094 [INFO] [Iter 178] LR: 0.10000000
+2025-07-20 19:06:17,095 [INFO] Saving best model at iteration 178
+2025-07-20 19:06:18,824 [INFO] [179/300] loss 348.181 | compact 9.53745 | spectral 5.79588 | recons_loss: 0.233465 | sparse_loss: 1.0505 | 
+2025-07-20 19:06:18,824 [INFO] [Iter 179] LR: 0.10000000
+2025-07-20 19:06:18,826 [INFO] Saving best model at iteration 179
+2025-07-20 19:06:20,562 [INFO] [180/300] loss 348.14 | compact 9.542 | spectral 5.79753 | recons_loss: 0.233226 | sparse_loss: 1.05047 | 
+2025-07-20 19:06:20,562 [INFO] [Iter 180] LR: 0.10000000
+2025-07-20 19:06:20,564 [INFO] Saving best model at iteration 180
+2025-07-20 19:06:22,304 [INFO] [181/300] loss 348.098 | compact 9.54661 | spectral 5.79861 | recons_loss: 0.232991 | sparse_loss: 1.05043 | 
+2025-07-20 19:06:22,304 [INFO] [Iter 181] LR: 0.10000000
+2025-07-20 19:06:22,306 [INFO] Saving best model at iteration 181
+2025-07-20 19:06:24,035 [INFO] [182/300] loss 348.057 | compact 9.5511 | spectral 5.80037 | recons_loss: 0.232758 | sparse_loss: 1.0504 | 
+2025-07-20 19:06:24,036 [INFO] [Iter 182] LR: 0.10000000
+2025-07-20 19:06:24,038 [INFO] Saving best model at iteration 182
+2025-07-20 19:06:25,771 [INFO] [183/300] loss 348.017 | compact 9.55598 | spectral 5.80282 | recons_loss: 0.232523 | sparse_loss: 1.05036 | 
+2025-07-20 19:06:25,771 [INFO] [Iter 183] LR: 0.10000000
+2025-07-20 19:06:25,773 [INFO] Saving best model at iteration 183
+2025-07-20 19:06:27,509 [INFO] [184/300] loss 347.979 | compact 9.56027 | spectral 5.80535 | recons_loss: 0.232302 | sparse_loss: 1.05033 | 
+2025-07-20 19:06:27,510 [INFO] [Iter 184] LR: 0.10000000
+2025-07-20 19:06:27,511 [INFO] Saving best model at iteration 184
+2025-07-20 19:06:29,247 [INFO] [185/300] loss 347.94 | compact 9.56435 | spectral 5.80732 | recons_loss: 0.232081 | sparse_loss: 1.0503 | 
+2025-07-20 19:06:29,248 [INFO] [Iter 185] LR: 0.10000000
+2025-07-20 19:06:29,249 [INFO] Saving best model at iteration 185
+2025-07-20 19:06:30,978 [INFO] [186/300] loss 347.903 | compact 9.56812 | spectral 5.81127 | recons_loss: 0.231846 | sparse_loss: 1.05027 | 
+2025-07-20 19:06:30,978 [INFO] [Iter 186] LR: 0.10000000
+2025-07-20 19:06:30,980 [INFO] Saving best model at iteration 186
+2025-07-20 19:06:32,719 [INFO] [187/300] loss 347.867 | compact 9.5715 | spectral 5.81594 | recons_loss: 0.231614 | sparse_loss: 1.05023 | 
+2025-07-20 19:06:32,720 [INFO] [Iter 187] LR: 0.10000000
+2025-07-20 19:06:32,721 [INFO] Saving best model at iteration 187
+2025-07-20 19:06:34,460 [INFO] [188/300] loss 347.83 | compact 9.57469 | spectral 5.82056 | recons_loss: 0.231377 | sparse_loss: 1.0502 | 
+2025-07-20 19:06:34,461 [INFO] [Iter 188] LR: 0.10000000
+2025-07-20 19:06:34,463 [INFO] Saving best model at iteration 188
+2025-07-20 19:06:36,209 [INFO] [189/300] loss 347.794 | compact 9.57833 | spectral 5.82458 | recons_loss: 0.231137 | sparse_loss: 1.05016 | 
+2025-07-20 19:06:36,209 [INFO] [Iter 189] LR: 0.10000000
+2025-07-20 19:06:36,211 [INFO] Saving best model at iteration 189
+2025-07-20 19:06:37,937 [INFO] [190/300] loss 347.757 | compact 9.58209 | spectral 5.82794 | recons_loss: 0.230899 | sparse_loss: 1.05013 | 
+2025-07-20 19:06:37,938 [INFO] [Iter 190] LR: 0.10000000
+2025-07-20 19:06:37,940 [INFO] Saving best model at iteration 190
+2025-07-20 19:06:39,683 [INFO] [191/300] loss 347.72 | compact 9.58574 | spectral 5.83117 | recons_loss: 0.230661 | sparse_loss: 1.0501 | 
+2025-07-20 19:06:39,684 [INFO] [Iter 191] LR: 0.10000000
+2025-07-20 19:06:39,685 [INFO] Saving best model at iteration 191
+2025-07-20 19:06:41,416 [INFO] [192/300] loss 347.683 | compact 9.58909 | spectral 5.83494 | recons_loss: 0.230422 | sparse_loss: 1.05007 | 
+2025-07-20 19:06:41,416 [INFO] [Iter 192] LR: 0.10000000
+2025-07-20 19:06:41,417 [INFO] Saving best model at iteration 192
+2025-07-20 19:06:43,146 [INFO] [193/300] loss 347.645 | compact 9.59243 | spectral 5.83742 | recons_loss: 0.230179 | sparse_loss: 1.05005 | 
+2025-07-20 19:06:43,146 [INFO] [Iter 193] LR: 0.10000000
+2025-07-20 19:06:43,148 [INFO] Saving best model at iteration 193
+2025-07-20 19:06:44,892 [INFO] [194/300] loss 347.609 | compact 9.59578 | spectral 5.84052 | recons_loss: 0.229939 | sparse_loss: 1.05002 | 
+2025-07-20 19:06:44,893 [INFO] [Iter 194] LR: 0.10000000
+2025-07-20 19:06:44,895 [INFO] Saving best model at iteration 194
+2025-07-20 19:06:46,623 [INFO] [195/300] loss 347.572 | compact 9.59949 | spectral 5.8432 | recons_loss: 0.229697 | sparse_loss: 1.05 | 
+2025-07-20 19:06:46,623 [INFO] [Iter 195] LR: 0.10000000
+2025-07-20 19:06:46,624 [INFO] Saving best model at iteration 195
+2025-07-20 19:06:48,357 [INFO] [196/300] loss 347.534 | compact 9.60314 | spectral 5.84556 | recons_loss: 0.229455 | sparse_loss: 1.04997 | 
+2025-07-20 19:06:48,357 [INFO] [Iter 196] LR: 0.10000000
+2025-07-20 19:06:48,358 [INFO] Saving best model at iteration 196
+2025-07-20 19:06:50,102 [INFO] [197/300] loss 347.496 | compact 9.60669 | spectral 5.84756 | recons_loss: 0.229214 | sparse_loss: 1.04994 | 
+2025-07-20 19:06:50,102 [INFO] [Iter 197] LR: 0.10000000
+2025-07-20 19:06:50,104 [INFO] Saving best model at iteration 197
+2025-07-20 19:06:51,834 [INFO] [198/300] loss 347.457 | compact 9.61003 | spectral 5.84921 | recons_loss: 0.228969 | sparse_loss: 1.04992 | 
+2025-07-20 19:06:51,834 [INFO] [Iter 198] LR: 0.10000000
+2025-07-20 19:06:51,836 [INFO] Saving best model at iteration 198
+2025-07-20 19:06:53,571 [INFO] [199/300] loss 347.419 | compact 9.61326 | spectral 5.85087 | recons_loss: 0.228724 | sparse_loss: 1.0499 | 
+2025-07-20 19:06:53,571 [INFO] [Iter 199] LR: 0.10000000
+2025-07-20 19:06:53,572 [INFO] Saving best model at iteration 199
+2025-07-20 19:06:54,001 [INFO] H: 217, W: 512
+2025-07-20 19:06:54,194 [INFO] [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15]
+2025-07-20 19:06:54,313 [INFO] y_target: [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16]
+2025-07-20 19:06:54,313 [INFO] y_predict: [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15]
+2025-07-20 19:06:54,477 [INFO] Epoch = 200 OA = 0.7998 Kappa = 0.7757 NMI = 0.8308
+2025-07-20 19:06:55,900 [INFO] [200/300] loss 347.381 | compact 9.61659 | spectral 5.85269 | recons_loss: 0.228479 | sparse_loss: 1.04987 | 
+2025-07-20 19:06:55,901 [INFO] [Iter 200] LR: 0.10000000
+2025-07-20 19:06:55,902 [INFO] Saving best model at iteration 200
+2025-07-20 19:06:57,630 [INFO] [201/300] loss 347.343 | compact 9.62003 | spectral 5.85462 | recons_loss: 0.228235 | sparse_loss: 1.04985 | 
+2025-07-20 19:06:57,630 [INFO] [Iter 201] LR: 0.10000000
+2025-07-20 19:06:57,632 [INFO] Saving best model at iteration 201
+2025-07-20 19:06:59,360 [INFO] [202/300] loss 347.306 | compact 9.62316 | spectral 5.85715 | recons_loss: 0.227994 | sparse_loss: 1.04982 | 
+2025-07-20 19:06:59,360 [INFO] [Iter 202] LR: 0.10000000
+2025-07-20 19:06:59,362 [INFO] Saving best model at iteration 202
+2025-07-20 19:07:01,090 [INFO] [203/300] loss 347.269 | compact 9.62628 | spectral 5.85915 | recons_loss: 0.227754 | sparse_loss: 1.0498 | 
+2025-07-20 19:07:01,091 [INFO] [Iter 203] LR: 0.10000000
+2025-07-20 19:07:01,092 [INFO] Saving best model at iteration 203
+2025-07-20 19:07:02,827 [INFO] [204/300] loss 347.233 | compact 9.62912 | spectral 5.86157 | recons_loss: 0.227515 | sparse_loss: 1.04977 | 
+2025-07-20 19:07:02,828 [INFO] [Iter 204] LR: 0.10000000
+2025-07-20 19:07:02,830 [INFO] Saving best model at iteration 204
+2025-07-20 19:07:04,570 [INFO] [205/300] loss 347.197 | compact 9.63225 | spectral 5.86361 | recons_loss: 0.227277 | sparse_loss: 1.04975 | 
+2025-07-20 19:07:04,570 [INFO] [Iter 205] LR: 0.10000000
+2025-07-20 19:07:04,571 [INFO] Saving best model at iteration 205
+2025-07-20 19:07:06,310 [INFO] [206/300] loss 347.161 | compact 9.63511 | spectral 5.86627 | recons_loss: 0.227036 | sparse_loss: 1.04972 | 
+2025-07-20 19:07:06,311 [INFO] [Iter 206] LR: 0.10000000
+2025-07-20 19:07:06,312 [INFO] Saving best model at iteration 206
+2025-07-20 19:07:08,045 [INFO] [207/300] loss 347.125 | compact 9.6384 | spectral 5.86827 | recons_loss: 0.226799 | sparse_loss: 1.04969 | 
+2025-07-20 19:07:08,046 [INFO] [Iter 207] LR: 0.10000000
+2025-07-20 19:07:08,047 [INFO] Saving best model at iteration 207
+2025-07-20 19:07:09,779 [INFO] [208/300] loss 347.088 | compact 9.64235 | spectral 5.86971 | recons_loss: 0.226567 | sparse_loss: 1.04967 | 
+2025-07-20 19:07:09,779 [INFO] [Iter 208] LR: 0.10000000
+2025-07-20 19:07:09,781 [INFO] Saving best model at iteration 208
+2025-07-20 19:07:11,512 [INFO] [209/300] loss 347.051 | compact 9.64586 | spectral 5.87112 | recons_loss: 0.226334 | sparse_loss: 1.04964 | 
+2025-07-20 19:07:11,513 [INFO] [Iter 209] LR: 0.10000000
+2025-07-20 19:07:11,515 [INFO] Saving best model at iteration 209
+2025-07-20 19:07:13,251 [INFO] [210/300] loss 347.013 | compact 9.64949 | spectral 5.87157 | recons_loss: 0.226107 | sparse_loss: 1.04962 | 
+2025-07-20 19:07:13,251 [INFO] [Iter 210] LR: 0.10000000
+2025-07-20 19:07:13,252 [INFO] Saving best model at iteration 210
+2025-07-20 19:07:14,980 [INFO] [211/300] loss 346.977 | compact 9.65278 | spectral 5.87228 | recons_loss: 0.225886 | sparse_loss: 1.04959 | 
+2025-07-20 19:07:14,980 [INFO] [Iter 211] LR: 0.10000000
+2025-07-20 19:07:14,981 [INFO] Saving best model at iteration 211
+2025-07-20 19:07:16,717 [INFO] [212/300] loss 346.942 | compact 9.65627 | spectral 5.87196 | recons_loss: 0.225672 | sparse_loss: 1.04957 | 
+2025-07-20 19:07:16,717 [INFO] [Iter 212] LR: 0.10000000
+2025-07-20 19:07:16,720 [INFO] Saving best model at iteration 212
+2025-07-20 19:07:18,461 [INFO] [213/300] loss 346.906 | compact 9.65916 | spectral 5.87148 | recons_loss: 0.225454 | sparse_loss: 1.04954 | 
+2025-07-20 19:07:18,461 [INFO] [Iter 213] LR: 0.10000000
+2025-07-20 19:07:18,462 [INFO] Saving best model at iteration 213
+2025-07-20 19:07:20,199 [INFO] [214/300] loss 346.871 | compact 9.66209 | spectral 5.87087 | recons_loss: 0.225239 | sparse_loss: 1.04952 | 
+2025-07-20 19:07:20,199 [INFO] [Iter 214] LR: 0.10000000
+2025-07-20 19:07:20,200 [INFO] Saving best model at iteration 214
+2025-07-20 19:07:21,941 [INFO] [215/300] loss 346.838 | compact 9.66541 | spectral 5.87081 | recons_loss: 0.225029 | sparse_loss: 1.0495 | 
+2025-07-20 19:07:21,942 [INFO] [Iter 215] LR: 0.10000000
+2025-07-20 19:07:21,943 [INFO] Saving best model at iteration 215
+2025-07-20 19:07:23,682 [INFO] [216/300] loss 346.805 | compact 9.66901 | spectral 5.87056 | recons_loss: 0.224813 | sparse_loss: 1.04948 | 
+2025-07-20 19:07:23,682 [INFO] [Iter 216] LR: 0.10000000
+2025-07-20 19:07:23,685 [INFO] Saving best model at iteration 216
+2025-07-20 19:07:25,412 [INFO] [217/300] loss 346.772 | compact 9.67262 | spectral 5.87057 | recons_loss: 0.2246 | sparse_loss: 1.04946 | 
+2025-07-20 19:07:25,412 [INFO] [Iter 217] LR: 0.10000000
+2025-07-20 19:07:25,414 [INFO] Saving best model at iteration 217
+2025-07-20 19:07:27,143 [INFO] [218/300] loss 346.739 | compact 9.67622 | spectral 5.87097 | recons_loss: 0.224383 | sparse_loss: 1.04943 | 
+2025-07-20 19:07:27,143 [INFO] [Iter 218] LR: 0.10000000
+2025-07-20 19:07:27,145 [INFO] Saving best model at iteration 218
+2025-07-20 19:07:28,876 [INFO] [219/300] loss 346.707 | compact 9.68059 | spectral 5.87142 | recons_loss: 0.224165 | sparse_loss: 1.04941 | 
+2025-07-20 19:07:28,877 [INFO] [Iter 219] LR: 0.10000000
+2025-07-20 19:07:28,878 [INFO] Saving best model at iteration 219
+2025-07-20 19:07:30,617 [INFO] [220/300] loss 346.675 | compact 9.68546 | spectral 5.87172 | recons_loss: 0.223947 | sparse_loss: 1.0494 | 
+2025-07-20 19:07:30,618 [INFO] [Iter 220] LR: 0.10000000
+2025-07-20 19:07:30,620 [INFO] Saving best model at iteration 220
+2025-07-20 19:07:32,346 [INFO] [221/300] loss 346.644 | compact 9.68999 | spectral 5.87208 | recons_loss: 0.223734 | sparse_loss: 1.04938 | 
+2025-07-20 19:07:32,346 [INFO] [Iter 221] LR: 0.10000000
+2025-07-20 19:07:32,347 [INFO] Saving best model at iteration 221
+2025-07-20 19:07:34,080 [INFO] [222/300] loss 346.612 | compact 9.69415 | spectral 5.87259 | recons_loss: 0.223519 | sparse_loss: 1.04935 | 
+2025-07-20 19:07:34,080 [INFO] [Iter 222] LR: 0.10000000
+2025-07-20 19:07:34,082 [INFO] Saving best model at iteration 222
+2025-07-20 19:07:35,827 [INFO] [223/300] loss 346.582 | compact 9.69822 | spectral 5.87423 | recons_loss: 0.223305 | sparse_loss: 1.04933 | 
+2025-07-20 19:07:35,828 [INFO] [Iter 223] LR: 0.10000000
+2025-07-20 19:07:35,829 [INFO] Saving best model at iteration 223
+2025-07-20 19:07:37,558 [INFO] [224/300] loss 346.551 | compact 9.70243 | spectral 5.87525 | recons_loss: 0.223093 | sparse_loss: 1.0493 | 
+2025-07-20 19:07:37,558 [INFO] [Iter 224] LR: 0.10000000
+2025-07-20 19:07:37,559 [INFO] Saving best model at iteration 224
+2025-07-20 19:07:39,296 [INFO] [225/300] loss 346.52 | compact 9.70675 | spectral 5.87623 | recons_loss: 0.22288 | sparse_loss: 1.04927 | 
+2025-07-20 19:07:39,296 [INFO] [Iter 225] LR: 0.10000000
+2025-07-20 19:07:39,298 [INFO] Saving best model at iteration 225
+2025-07-20 19:07:41,032 [INFO] [226/300] loss 346.487 | compact 9.71197 | spectral 5.87686 | recons_loss: 0.222667 | sparse_loss: 1.04925 | 
+2025-07-20 19:07:41,032 [INFO] [Iter 226] LR: 0.10000000
+2025-07-20 19:07:41,034 [INFO] Saving best model at iteration 226
+2025-07-20 19:07:42,776 [INFO] [227/300] loss 346.455 | compact 9.71708 | spectral 5.87771 | recons_loss: 0.222453 | sparse_loss: 1.04922 | 
+2025-07-20 19:07:42,776 [INFO] [Iter 227] LR: 0.10000000
+2025-07-20 19:07:42,777 [INFO] Saving best model at iteration 227
+2025-07-20 19:07:44,503 [INFO] [228/300] loss 346.423 | compact 9.72134 | spectral 5.87895 | recons_loss: 0.222238 | sparse_loss: 1.0492 | 
+2025-07-20 19:07:44,504 [INFO] [Iter 228] LR: 0.10000000
+2025-07-20 19:07:44,505 [INFO] Saving best model at iteration 228
+2025-07-20 19:07:46,241 [INFO] [229/300] loss 346.39 | compact 9.72545 | spectral 5.87991 | recons_loss: 0.222026 | sparse_loss: 1.04918 | 
+2025-07-20 19:07:46,241 [INFO] [Iter 229] LR: 0.10000000
+2025-07-20 19:07:46,243 [INFO] Saving best model at iteration 229
+2025-07-20 19:07:47,973 [INFO] [230/300] loss 346.357 | compact 9.72952 | spectral 5.88114 | recons_loss: 0.221813 | sparse_loss: 1.04916 | 
+2025-07-20 19:07:47,973 [INFO] [Iter 230] LR: 0.10000000
+2025-07-20 19:07:47,975 [INFO] Saving best model at iteration 230
+2025-07-20 19:07:49,707 [INFO] [231/300] loss 346.323 | compact 9.73395 | spectral 5.88215 | recons_loss: 0.221598 | sparse_loss: 1.04913 | 
+2025-07-20 19:07:49,708 [INFO] [Iter 231] LR: 0.10000000
+2025-07-20 19:07:49,709 [INFO] Saving best model at iteration 231
+2025-07-20 19:07:51,446 [INFO] [232/300] loss 346.293 | compact 9.73765 | spectral 5.88266 | recons_loss: 0.221409 | sparse_loss: 1.04911 | 
+2025-07-20 19:07:51,446 [INFO] [Iter 232] LR: 0.10000000
+2025-07-20 19:07:51,447 [INFO] Saving best model at iteration 232
+2025-07-20 19:07:53,175 [INFO] [233/300] loss 346.262 | compact 9.74088 | spectral 5.88387 | recons_loss: 0.221213 | sparse_loss: 1.04908 | 
+2025-07-20 19:07:53,176 [INFO] [Iter 233] LR: 0.10000000
+2025-07-20 19:07:53,177 [INFO] Saving best model at iteration 233
+2025-07-20 19:07:54,913 [INFO] [234/300] loss 346.234 | compact 9.74477 | spectral 5.88482 | recons_loss: 0.221028 | sparse_loss: 1.04906 | 
+2025-07-20 19:07:54,913 [INFO] [Iter 234] LR: 0.10000000
+2025-07-20 19:07:54,914 [INFO] Saving best model at iteration 234
+2025-07-20 19:07:56,640 [INFO] [235/300] loss 346.206 | compact 9.74852 | spectral 5.8862 | recons_loss: 0.220834 | sparse_loss: 1.04904 | 
+2025-07-20 19:07:56,641 [INFO] [Iter 235] LR: 0.10000000
+2025-07-20 19:07:56,643 [INFO] Saving best model at iteration 235
+2025-07-20 19:07:58,371 [INFO] [236/300] loss 346.175 | compact 9.75173 | spectral 5.88745 | recons_loss: 0.220628 | sparse_loss: 1.04902 | 
+2025-07-20 19:07:58,372 [INFO] [Iter 236] LR: 0.10000000
+2025-07-20 19:07:58,373 [INFO] Saving best model at iteration 236
+2025-07-20 19:08:00,114 [INFO] [237/300] loss 346.144 | compact 9.75504 | spectral 5.88851 | recons_loss: 0.220415 | sparse_loss: 1.04899 | 
+2025-07-20 19:08:00,114 [INFO] [Iter 237] LR: 0.10000000
+2025-07-20 19:08:00,115 [INFO] Saving best model at iteration 237
+2025-07-20 19:08:01,843 [INFO] [238/300] loss 346.114 | compact 9.75851 | spectral 5.88915 | recons_loss: 0.220203 | sparse_loss: 1.04896 | 
+2025-07-20 19:08:01,843 [INFO] [Iter 238] LR: 0.10000000
+2025-07-20 19:08:01,844 [INFO] Saving best model at iteration 238
+2025-07-20 19:08:03,573 [INFO] [239/300] loss 346.086 | compact 9.76186 | spectral 5.88973 | recons_loss: 0.219994 | sparse_loss: 1.04894 | 
+2025-07-20 19:08:03,573 [INFO] [Iter 239] LR: 0.10000000
+2025-07-20 19:08:03,576 [INFO] Saving best model at iteration 239
+2025-07-20 19:08:05,306 [INFO] [240/300] loss 346.058 | compact 9.76576 | spectral 5.89154 | recons_loss: 0.219785 | sparse_loss: 1.04891 | 
+2025-07-20 19:08:05,306 [INFO] [Iter 240] LR: 0.10000000
+2025-07-20 19:08:05,307 [INFO] Saving best model at iteration 240
+2025-07-20 19:08:07,033 [INFO] [241/300] loss 346.031 | compact 9.76986 | spectral 5.89331 | recons_loss: 0.219582 | sparse_loss: 1.04888 | 
+2025-07-20 19:08:07,033 [INFO] [Iter 241] LR: 0.10000000
+2025-07-20 19:08:07,034 [INFO] Saving best model at iteration 241
+2025-07-20 19:08:08,763 [INFO] [242/300] loss 346.004 | compact 9.77393 | spectral 5.89511 | recons_loss: 0.219385 | sparse_loss: 1.04886 | 
+2025-07-20 19:08:08,764 [INFO] [Iter 242] LR: 0.10000000
+2025-07-20 19:08:08,765 [INFO] Saving best model at iteration 242
+2025-07-20 19:08:10,517 [INFO] [243/300] loss 345.976 | compact 9.77729 | spectral 5.8956 | recons_loss: 0.219195 | sparse_loss: 1.04884 | 
+2025-07-20 19:08:10,518 [INFO] [Iter 243] LR: 0.10000000
+2025-07-20 19:08:10,519 [INFO] Saving best model at iteration 243
+2025-07-20 19:08:12,252 [INFO] [244/300] loss 345.949 | compact 9.78108 | spectral 5.89617 | recons_loss: 0.219002 | sparse_loss: 1.04882 | 
+2025-07-20 19:08:12,253 [INFO] [Iter 244] LR: 0.10000000
+2025-07-20 19:08:12,254 [INFO] Saving best model at iteration 244
+2025-07-20 19:08:13,989 [INFO] [245/300] loss 345.919 | compact 9.78475 | spectral 5.89678 | recons_loss: 0.2188 | sparse_loss: 1.0488 | 
+2025-07-20 19:08:13,989 [INFO] [Iter 245] LR: 0.10000000
+2025-07-20 19:08:13,990 [INFO] Saving best model at iteration 245
+2025-07-20 19:08:15,727 [INFO] [246/300] loss 345.893 | compact 9.7876 | spectral 5.89868 | recons_loss: 0.218598 | sparse_loss: 1.04878 | 
+2025-07-20 19:08:15,727 [INFO] [Iter 246] LR: 0.10000000
+2025-07-20 19:08:15,728 [INFO] Saving best model at iteration 246
+2025-07-20 19:08:17,464 [INFO] [247/300] loss 345.867 | compact 9.79072 | spectral 5.90058 | recons_loss: 0.218394 | sparse_loss: 1.04875 | 
+2025-07-20 19:08:17,464 [INFO] [Iter 247] LR: 0.10000000
+2025-07-20 19:08:17,466 [INFO] Saving best model at iteration 247
+2025-07-20 19:08:19,199 [INFO] [248/300] loss 345.841 | compact 9.79406 | spectral 5.90173 | recons_loss: 0.218194 | sparse_loss: 1.04873 | 
+2025-07-20 19:08:19,200 [INFO] [Iter 248] LR: 0.10000000
+2025-07-20 19:08:19,201 [INFO] Saving best model at iteration 248
+2025-07-20 19:08:20,932 [INFO] [249/300] loss 345.816 | compact 9.79756 | spectral 5.90293 | recons_loss: 0.218002 | sparse_loss: 1.04871 | 
+2025-07-20 19:08:20,932 [INFO] [Iter 249] LR: 0.10000000
+2025-07-20 19:08:20,933 [INFO] Saving best model at iteration 249
+2025-07-20 19:08:21,356 [INFO] H: 217, W: 512
+2025-07-20 19:08:21,524 [INFO] [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15]
+2025-07-20 19:08:21,650 [INFO] y_target: [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16]
+2025-07-20 19:08:21,650 [INFO] y_predict: [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15]
+2025-07-20 19:08:21,813 [INFO] Epoch = 250 OA = 0.7991 Kappa = 0.7750 NMI = 0.8304
+2025-07-20 19:08:23,237 [INFO] [250/300] loss 345.793 | compact 9.8013 | spectral 5.90404 | recons_loss: 0.217814 | sparse_loss: 1.04869 | 
+2025-07-20 19:08:23,237 [INFO] [Iter 250] LR: 0.10000000
+2025-07-20 19:08:23,239 [INFO] Saving best model at iteration 250
+2025-07-20 19:08:24,978 [INFO] [251/300] loss 345.765 | compact 9.80504 | spectral 5.90335 | recons_loss: 0.217613 | sparse_loss: 1.04866 | 
+2025-07-20 19:08:24,979 [INFO] [Iter 251] LR: 0.10000000
+2025-07-20 19:08:24,980 [INFO] Saving best model at iteration 251
+2025-07-20 19:08:26,705 [INFO] [252/300] loss 345.736 | compact 9.80926 | spectral 5.90259 | recons_loss: 0.217409 | sparse_loss: 1.04863 | 
+2025-07-20 19:08:26,706 [INFO] [Iter 252] LR: 0.10000000
+2025-07-20 19:08:26,707 [INFO] Saving best model at iteration 252
+2025-07-20 19:08:28,433 [INFO] [253/300] loss 345.709 | compact 9.81319 | spectral 5.90278 | recons_loss: 0.2172 | sparse_loss: 1.04861 | 
+2025-07-20 19:08:28,434 [INFO] [Iter 253] LR: 0.10000000
+2025-07-20 19:08:28,435 [INFO] Saving best model at iteration 253
+2025-07-20 19:08:30,179 [INFO] [254/300] loss 345.68 | compact 9.81786 | spectral 5.90176 | recons_loss: 0.216988 | sparse_loss: 1.04859 | 
+2025-07-20 19:08:30,179 [INFO] [Iter 254] LR: 0.10000000
+2025-07-20 19:08:30,180 [INFO] Saving best model at iteration 254
+2025-07-20 19:08:31,908 [INFO] [255/300] loss 345.653 | compact 9.82215 | spectral 5.90147 | recons_loss: 0.216776 | sparse_loss: 1.04857 | 
+2025-07-20 19:08:31,909 [INFO] [Iter 255] LR: 0.10000000
+2025-07-20 19:08:31,911 [INFO] Saving best model at iteration 255
+2025-07-20 19:08:33,642 [INFO] [256/300] loss 345.626 | compact 9.82613 | spectral 5.90134 | recons_loss: 0.216563 | sparse_loss: 1.04855 | 
+2025-07-20 19:08:33,643 [INFO] [Iter 256] LR: 0.10000000
+2025-07-20 19:08:33,644 [INFO] Saving best model at iteration 256
+2025-07-20 19:08:35,381 [INFO] [257/300] loss 345.598 | compact 9.83075 | spectral 5.90073 | recons_loss: 0.216349 | sparse_loss: 1.04853 | 
+2025-07-20 19:08:35,381 [INFO] [Iter 257] LR: 0.10000000
+2025-07-20 19:08:35,382 [INFO] Saving best model at iteration 257
+2025-07-20 19:08:37,111 [INFO] [258/300] loss 345.57 | compact 9.83449 | spectral 5.90103 | recons_loss: 0.216135 | sparse_loss: 1.0485 | 
+2025-07-20 19:08:37,111 [INFO] [Iter 258] LR: 0.10000000
+2025-07-20 19:08:37,113 [INFO] Saving best model at iteration 258
+2025-07-20 19:08:38,846 [INFO] [259/300] loss 345.542 | compact 9.8383 | spectral 5.90148 | recons_loss: 0.215921 | sparse_loss: 1.04847 | 
+2025-07-20 19:08:38,847 [INFO] [Iter 259] LR: 0.10000000
+2025-07-20 19:08:38,849 [INFO] Saving best model at iteration 259
+2025-07-20 19:08:40,591 [INFO] [260/300] loss 345.514 | compact 9.84193 | spectral 5.90176 | recons_loss: 0.215708 | sparse_loss: 1.04845 | 
+2025-07-20 19:08:40,591 [INFO] [Iter 260] LR: 0.10000000
+2025-07-20 19:08:40,593 [INFO] Saving best model at iteration 260
+2025-07-20 19:08:42,319 [INFO] [261/300] loss 345.486 | compact 9.8465 | spectral 5.90207 | recons_loss: 0.215494 | sparse_loss: 1.04843 | 
+2025-07-20 19:08:42,320 [INFO] [Iter 261] LR: 0.10000000
+2025-07-20 19:08:42,321 [INFO] Saving best model at iteration 261
+2025-07-20 19:08:44,054 [INFO] [262/300] loss 345.456 | compact 9.85095 | spectral 5.90154 | recons_loss: 0.215282 | sparse_loss: 1.04842 | 
+2025-07-20 19:08:44,054 [INFO] [Iter 262] LR: 0.10000000
+2025-07-20 19:08:44,056 [INFO] Saving best model at iteration 262
+2025-07-20 19:08:45,795 [INFO] [263/300] loss 345.426 | compact 9.85526 | spectral 5.90153 | recons_loss: 0.215073 | sparse_loss: 1.0484 | 
+2025-07-20 19:08:45,795 [INFO] [Iter 263] LR: 0.10000000
+2025-07-20 19:08:45,796 [INFO] Saving best model at iteration 263
+2025-07-20 19:08:47,531 [INFO] [264/300] loss 345.395 | compact 9.85987 | spectral 5.90111 | recons_loss: 0.214864 | sparse_loss: 1.04838 | 
+2025-07-20 19:08:47,531 [INFO] [Iter 264] LR: 0.10000000
+2025-07-20 19:08:47,532 [INFO] Saving best model at iteration 264
+2025-07-20 19:08:49,274 [INFO] [265/300] loss 345.364 | compact 9.86417 | spectral 5.90109 | recons_loss: 0.214654 | sparse_loss: 1.04836 | 
+2025-07-20 19:08:49,274 [INFO] [Iter 265] LR: 0.10000000
+2025-07-20 19:08:49,275 [INFO] Saving best model at iteration 265
+2025-07-20 19:08:51,014 [INFO] [266/300] loss 345.332 | compact 9.86864 | spectral 5.90057 | recons_loss: 0.214447 | sparse_loss: 1.04834 | 
+2025-07-20 19:08:51,014 [INFO] [Iter 266] LR: 0.10000000
+2025-07-20 19:08:51,016 [INFO] Saving best model at iteration 266
+2025-07-20 19:08:52,752 [INFO] [267/300] loss 345.301 | compact 9.87309 | spectral 5.90057 | recons_loss: 0.214244 | sparse_loss: 1.04833 | 
+2025-07-20 19:08:52,752 [INFO] [Iter 267] LR: 0.10000000
+2025-07-20 19:08:52,754 [INFO] Saving best model at iteration 267
+2025-07-20 19:08:54,492 [INFO] [268/300] loss 345.27 | compact 9.87779 | spectral 5.90063 | recons_loss: 0.214045 | sparse_loss: 1.04831 | 
+2025-07-20 19:08:54,492 [INFO] [Iter 268] LR: 0.10000000
+2025-07-20 19:08:54,493 [INFO] Saving best model at iteration 268
+2025-07-20 19:08:56,232 [INFO] [269/300] loss 345.244 | compact 9.88255 | spectral 5.90088 | recons_loss: 0.213894 | sparse_loss: 1.0483 | 
+2025-07-20 19:08:56,233 [INFO] [Iter 269] LR: 0.10000000
+2025-07-20 19:08:56,234 [INFO] Saving best model at iteration 269
+2025-07-20 19:08:57,960 [INFO] [270/300] loss 345.216 | compact 9.88707 | spectral 5.90019 | recons_loss: 0.213763 | sparse_loss: 1.04828 | 
+2025-07-20 19:08:57,960 [INFO] [Iter 270] LR: 0.10000000
+2025-07-20 19:08:57,961 [INFO] Saving best model at iteration 270
+2025-07-20 19:08:59,696 [INFO] [271/300] loss 345.189 | compact 9.89111 | spectral 5.90085 | recons_loss: 0.213612 | sparse_loss: 1.04827 | 
+2025-07-20 19:08:59,697 [INFO] [Iter 271] LR: 0.10000000
+2025-07-20 19:08:59,699 [INFO] Saving best model at iteration 271
+2025-07-20 19:09:01,439 [INFO] [272/300] loss 345.16 | compact 9.8954 | spectral 5.90072 | recons_loss: 0.213448 | sparse_loss: 1.04825 | 
+2025-07-20 19:09:01,439 [INFO] [Iter 272] LR: 0.10000000
+2025-07-20 19:09:01,440 [INFO] Saving best model at iteration 272
+2025-07-20 19:09:03,171 [INFO] [273/300] loss 345.131 | compact 9.89953 | spectral 5.90085 | recons_loss: 0.213281 | sparse_loss: 1.04823 | 
+2025-07-20 19:09:03,172 [INFO] [Iter 273] LR: 0.10000000
+2025-07-20 19:09:03,173 [INFO] Saving best model at iteration 273
+2025-07-20 19:09:04,907 [INFO] [274/300] loss 345.102 | compact 9.90342 | spectral 5.90044 | recons_loss: 0.213107 | sparse_loss: 1.04821 | 
+2025-07-20 19:09:04,908 [INFO] [Iter 274] LR: 0.10000000
+2025-07-20 19:09:04,909 [INFO] Saving best model at iteration 274
+2025-07-20 19:09:06,645 [INFO] [275/300] loss 345.071 | compact 9.90744 | spectral 5.89987 | recons_loss: 0.212925 | sparse_loss: 1.04819 | 
+2025-07-20 19:09:06,646 [INFO] [Iter 275] LR: 0.10000000
+2025-07-20 19:09:06,648 [INFO] Saving best model at iteration 275
+2025-07-20 19:09:08,380 [INFO] [276/300] loss 345.04 | compact 9.91087 | spectral 5.89889 | recons_loss: 0.212741 | sparse_loss: 1.04817 | 
+2025-07-20 19:09:08,380 [INFO] [Iter 276] LR: 0.10000000
+2025-07-20 19:09:08,381 [INFO] Saving best model at iteration 276
+2025-07-20 19:09:10,114 [INFO] [277/300] loss 345.007 | compact 9.915 | spectral 5.89749 | recons_loss: 0.212527 | sparse_loss: 1.04815 | 
+2025-07-20 19:09:10,115 [INFO] [Iter 277] LR: 0.10000000
+2025-07-20 19:09:10,116 [INFO] Saving best model at iteration 277
+2025-07-20 19:09:11,850 [INFO] [278/300] loss 344.975 | compact 9.91879 | spectral 5.89661 | recons_loss: 0.212319 | sparse_loss: 1.04813 | 
+2025-07-20 19:09:11,850 [INFO] [Iter 278] LR: 0.10000000
+2025-07-20 19:09:11,852 [INFO] Saving best model at iteration 278
+2025-07-20 19:09:13,589 [INFO] [279/300] loss 344.943 | compact 9.9226 | spectral 5.89602 | recons_loss: 0.212116 | sparse_loss: 1.0481 | 
+2025-07-20 19:09:13,590 [INFO] [Iter 279] LR: 0.10000000
+2025-07-20 19:09:13,592 [INFO] Saving best model at iteration 279
+2025-07-20 19:09:15,329 [INFO] [280/300] loss 344.911 | compact 9.92631 | spectral 5.89499 | recons_loss: 0.211918 | sparse_loss: 1.04808 | 
+2025-07-20 19:09:15,329 [INFO] [Iter 280] LR: 0.10000000
+2025-07-20 19:09:15,332 [INFO] Saving best model at iteration 280
+2025-07-20 19:09:17,065 [INFO] [281/300] loss 344.882 | compact 9.93007 | spectral 5.89528 | recons_loss: 0.211731 | sparse_loss: 1.04806 | 
+2025-07-20 19:09:17,066 [INFO] [Iter 281] LR: 0.10000000
+2025-07-20 19:09:17,067 [INFO] Saving best model at iteration 281
+2025-07-20 19:09:18,805 [INFO] [282/300] loss 344.853 | compact 9.93383 | spectral 5.89528 | recons_loss: 0.211547 | sparse_loss: 1.04803 | 
+2025-07-20 19:09:18,806 [INFO] [Iter 282] LR: 0.10000000
+2025-07-20 19:09:18,808 [INFO] Saving best model at iteration 282
+2025-07-20 19:09:20,550 [INFO] [283/300] loss 344.825 | compact 9.93744 | spectral 5.89559 | recons_loss: 0.211373 | sparse_loss: 1.04801 | 
+2025-07-20 19:09:20,551 [INFO] [Iter 283] LR: 0.10000000
+2025-07-20 19:09:20,552 [INFO] Saving best model at iteration 283
+2025-07-20 19:09:22,283 [INFO] [284/300] loss 344.799 | compact 9.94126 | spectral 5.89727 | recons_loss: 0.211196 | sparse_loss: 1.04799 | 
+2025-07-20 19:09:22,283 [INFO] [Iter 284] LR: 0.10000000
+2025-07-20 19:09:22,284 [INFO] Saving best model at iteration 284
+2025-07-20 19:09:24,026 [INFO] [285/300] loss 344.772 | compact 9.9449 | spectral 5.89839 | recons_loss: 0.211017 | sparse_loss: 1.04796 | 
+2025-07-20 19:09:24,026 [INFO] [Iter 285] LR: 0.10000000
+2025-07-20 19:09:24,028 [INFO] Saving best model at iteration 285
+2025-07-20 19:09:25,775 [INFO] [286/300] loss 344.746 | compact 9.94837 | spectral 5.90019 | recons_loss: 0.210837 | sparse_loss: 1.04793 | 
+2025-07-20 19:09:25,775 [INFO] [Iter 286] LR: 0.10000000
+2025-07-20 19:09:25,777 [INFO] Saving best model at iteration 286
+2025-07-20 19:09:27,511 [INFO] [287/300] loss 344.719 | compact 9.95168 | spectral 5.90103 | recons_loss: 0.210657 | sparse_loss: 1.04791 | 
+2025-07-20 19:09:27,512 [INFO] [Iter 287] LR: 0.10000000
+2025-07-20 19:09:27,513 [INFO] Saving best model at iteration 287
+2025-07-20 19:09:29,238 [INFO] [288/300] loss 344.693 | compact 9.95518 | spectral 5.9022 | recons_loss: 0.210477 | sparse_loss: 1.04788 | 
+2025-07-20 19:09:29,238 [INFO] [Iter 288] LR: 0.10000000
+2025-07-20 19:09:29,240 [INFO] Saving best model at iteration 288
+2025-07-20 19:09:30,968 [INFO] [289/300] loss 344.666 | compact 9.95903 | spectral 5.9036 | recons_loss: 0.210303 | sparse_loss: 1.04786 | 
+2025-07-20 19:09:30,968 [INFO] [Iter 289] LR: 0.10000000
+2025-07-20 19:09:30,970 [INFO] Saving best model at iteration 289
+2025-07-20 19:09:32,708 [INFO] [290/300] loss 344.64 | compact 9.96282 | spectral 5.90551 | recons_loss: 0.210122 | sparse_loss: 1.04784 | 
+2025-07-20 19:09:32,708 [INFO] [Iter 290] LR: 0.10000000
+2025-07-20 19:09:32,710 [INFO] Saving best model at iteration 290
+2025-07-20 19:09:34,454 [INFO] [291/300] loss 344.613 | compact 9.96648 | spectral 5.90829 | recons_loss: 0.20994 | sparse_loss: 1.04781 | 
+2025-07-20 19:09:34,454 [INFO] [Iter 291] LR: 0.10000000
+2025-07-20 19:09:34,456 [INFO] Saving best model at iteration 291
+2025-07-20 19:09:36,186 [INFO] [292/300] loss 344.589 | compact 9.96882 | spectral 5.9138 | recons_loss: 0.209752 | sparse_loss: 1.04778 | 
+2025-07-20 19:09:36,186 [INFO] [Iter 292] LR: 0.10000000
+2025-07-20 19:09:36,188 [INFO] Saving best model at iteration 292
+2025-07-20 19:09:37,921 [INFO] [293/300] loss 344.564 | compact 9.97072 | spectral 5.91882 | recons_loss: 0.209563 | sparse_loss: 1.04776 | 
+2025-07-20 19:09:37,921 [INFO] [Iter 293] LR: 0.10000000
+2025-07-20 19:09:37,923 [INFO] Saving best model at iteration 293
+2025-07-20 19:09:39,656 [INFO] [294/300] loss 344.539 | compact 9.97299 | spectral 5.92405 | recons_loss: 0.209376 | sparse_loss: 1.04774 | 
+2025-07-20 19:09:39,657 [INFO] [Iter 294] LR: 0.10000000
+2025-07-20 19:09:39,659 [INFO] Saving best model at iteration 294
+2025-07-20 19:09:41,396 [INFO] [295/300] loss 344.513 | compact 9.97507 | spectral 5.9287 | recons_loss: 0.209194 | sparse_loss: 1.04772 | 
+2025-07-20 19:09:41,396 [INFO] [Iter 295] LR: 0.10000000
+2025-07-20 19:09:41,398 [INFO] Saving best model at iteration 295
+2025-07-20 19:09:43,135 [INFO] [296/300] loss 344.486 | compact 9.9771 | spectral 5.93268 | recons_loss: 0.209012 | sparse_loss: 1.0477 | 
+2025-07-20 19:09:43,136 [INFO] [Iter 296] LR: 0.10000000
+2025-07-20 19:09:43,137 [INFO] Saving best model at iteration 296
+2025-07-20 19:09:44,869 [INFO] [297/300] loss 344.458 | compact 9.97948 | spectral 5.93624 | recons_loss: 0.208831 | sparse_loss: 1.04768 | 
+2025-07-20 19:09:44,869 [INFO] [Iter 297] LR: 0.10000000
+2025-07-20 19:09:44,870 [INFO] Saving best model at iteration 297
+2025-07-20 19:09:46,595 [INFO] [298/300] loss 344.43 | compact 9.98193 | spectral 5.93945 | recons_loss: 0.208649 | sparse_loss: 1.04765 | 
+2025-07-20 19:09:46,596 [INFO] [Iter 298] LR: 0.10000000
+2025-07-20 19:09:46,597 [INFO] Saving best model at iteration 298
+2025-07-20 19:09:47,013 [INFO] H: 217, W: 512
+2025-07-20 19:09:47,183 [INFO] [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15]
+2025-07-20 19:09:47,304 [INFO] y_target: [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16]
+2025-07-20 19:09:47,304 [INFO] y_predict: [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15]
+2025-07-20 19:09:47,470 [INFO] Epoch = 299 OA = 0.8008 Kappa = 0.7769 NMI = 0.8357
+2025-07-20 19:09:48,894 [INFO] [299/300] loss 344.402 | compact 9.98484 | spectral 5.94197 | recons_loss: 0.208466 | sparse_loss: 1.04764 | 
+2025-07-20 19:09:48,894 [INFO] [Iter 299] LR: 0.10000000
+2025-07-20 19:09:48,895 [INFO] Saving best model at iteration 299
+2025-07-20 19:09:48,895 [INFO] Training finished. Best model loaded.
