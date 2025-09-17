@@ -126,22 +126,6 @@ def soft_connectivity_loss(soft_assignments):
 
 
 
-import torch
-
-def entropy_loss(probs):
-    """
-    probs: (N, 9) probability distribution
-    returns: scalar loss (mean entropy over all samples)
-    """
-    # probs: (N, 9)
-    probs = torch.permute(probs,[1,0])
-    entropy_per_sample = -(probs * (probs + 1e-9).log()).sum(dim=-1)  # (N,)
-    loss = entropy_per_sample.mean()  # scalar
-    return loss
-
-
-
-
 def compute_sparsity_metrics(C: torch.Tensor, threshold: float = 1e-3, eps: float = 1e-8):
     C_abs = C.abs()
 
