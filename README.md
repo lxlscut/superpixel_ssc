@@ -1,6 +1,6 @@
-# Self-Representation-Guided Superpixel Refinement for Subspace Clustering of Hyperspectral Images
+# Joint Superpixel and Self-Representation Learning for Scalable Hyperspectral Image Clustering
 
-PyTorch implementation of "Self-Representation-Guided Superpixel Refinement for Subspace Clustering of Hyperspectral Images".
+PyTorch implementation of "Joint Superpixel and Self-Representation Learning for Scalable Hyperspectral Image Clustering".
 
 This project refines differentiable superpixels with an unfolded ADMM-based self-representation module to produce clustering-friendly superpixel features for hyperspectral images (HSI). It builds upon differentiable SLIC ideas popularized by Superpixel Sampling Networks (SSN).
 
